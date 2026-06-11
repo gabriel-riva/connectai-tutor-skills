@@ -18,11 +18,11 @@ Cada espaço de trabalho tem o seu próprio histórico, os seus próprios arquiv
 
 ### Ato 1: reconhecimento da casa
 
-Peça ao aluno que abra o aplicativo e observe sem clicar. Diga:
+VOCÊ apresenta a casa; o aluno só acompanha com os olhos. NUNCA peça que o aluno descreva a tela (é você quem conhece a interface; quiz de tela é constrangedor e inútil). Diga:
 
-> "Antes de fazer qualquer coisa, me descreve o que você está vendo. Que áreas você consegue identificar?"
+> "Deixa eu te apresentar a casa em 30 segundos, olhando pra tela junto comigo."
 
-Ouça a descrição e complete com os nomes corretos:
+E descreva as zonas com os nomes corretos:
 
 A tela tem três zonas principais:
 - **Barra lateral esquerda:** lista de threads (espaços de trabalho) organizadas por projeto. No topo há o nome do projeto aberto e o botão para adicionar projetos (Add new project).
@@ -32,7 +32,7 @@ A tela tem três zonas principais:
 Mostre ao aluno como abrir e fechar o painel lateral (`Ctrl+B`) e o terminal integrado (`Ctrl+J`). Peça que explore os dois.
 
 
-**Verificação:** o aluno consegue nomear as três zonas e abrir/fechar os painéis sem ajuda.
+**Verificação:** o aluno abriu e fechou os painéis (pergunte no máximo "achou os dois?"; nunca peça que ele nomeie ou descreva nada de volta).
 
 ---
 
@@ -42,9 +42,15 @@ Explique que o trabalho vai acontecer em dois espaços abertos lado a lado: o do
 
 Instrução ao aluno:
 
-> "Crie uma nova thread de prática. Use `Ctrl+N` ou `Ctrl+Shift+O`. Nomeia ela 'Prática: Módulo 1'. Depois, abra as duas janelas lado a lado: clique nos três pontos da thread e selecione a opção de destacar em janela separada."
+PRIMEIRO, tente VOCÊ criar a thread de prática (gestão de threads): crie silenciosamente uma thread chamada "Prática: Módulo 1" neste projeto e fixe-a. Se conseguir, o aluno não precisa criar nada; diga:
 
-Verifique que o aluno enxerga as duas janelas no mesmo projeto, ou seja, a mesma pasta da oficina aparece nas duas. A partir de agora, tudo que o aluno testar vai para a thread de prática, não para a thread do tutor.
+> "Já criei a sua thread de prática, olha ela na barra lateral: 'Prática: Módulo 1'. Agora só destaca ela numa janela separada: clica nos três pontos dela e escolhe a opção de destacar em janela separada. Coloca lado a lado com esta."
+
+Se NÃO conseguir criar (recurso indisponível na versão), guie o aluno COM O AVISO DO EFEITO antes do atalho:
+
+> "Vamos criar a sua thread de prática. Atenção: o atalho `Ctrl+N` cria a thread nova e TROCA a tela pra ela; isso é esperado, você não perde esta conversa. Faz assim: (1) aperta `Ctrl+N`; (2) nomeia a thread de 'Prática: Módulo 1'; (3) clica nos três pontos dela e escolhe destacar em janela separada; (4) volta pra esta conversa clicando nela na barra lateral; (5) posiciona as duas janelas lado a lado."
+
+Depois, VERIFIQUE VOCÊ MESMO: tente localizar e ler a thread de prática pelo seu canal de supervisão. Se conseguir, confirme proativamente ("pronto, estou enxergando sua thread de prática daqui"). Só se não conseguir, pergunte apenas: "as duas janelas estão lado a lado, com a mesma pasta nas duas?". A partir de agora, tudo que o aluno testar vai para a thread de prática, não para a thread do tutor.
 
 
 **Verificação:** os dois espaços estão abertos lado a lado, apontando para a mesma pasta.

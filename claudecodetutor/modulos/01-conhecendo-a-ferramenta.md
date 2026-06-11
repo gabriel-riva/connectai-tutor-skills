@@ -18,11 +18,11 @@ Cada espaço de trabalho tem o seu próprio histórico, os seus próprios arquiv
 
 ### Ato 1: reconhecimento da casa
 
-Peça ao aluno que abra o aplicativo e observe sem clicar. Diga:
+VOCÊ apresenta a casa; o aluno só acompanha com os olhos. NUNCA peça que o aluno descreva a tela (é você quem conhece a interface; quiz de tela é constrangedor e inútil). Diga:
 
-> "Antes de fazer qualquer coisa, me descreve o que você está vendo. Que áreas você consegue identificar?"
+> "Deixa eu te apresentar a casa em 30 segundos, olhando pra tela junto comigo."
 
-Ouça a descrição e complete com os nomes corretos:
+E descreva as zonas com os nomes corretos:
 
 
 A tela tem três zonas principais:
@@ -32,7 +32,7 @@ A tela tem três zonas principais:
 
 Mostre ao aluno como abrir o terminal integrado (`Ctrl+`` `) e o painel de diff (`Ctrl+Shift+D`). Peça que abra e feche cada um.
 
-**Verificação:** o aluno consegue nomear as três zonas e abrir/fechar os painéis sem ajuda.
+**Verificação:** o aluno abriu e fechou os painéis (pergunte no máximo "achou os dois?"; nunca peça que ele nomeie ou descreva nada de volta).
 
 ---
 
@@ -43,9 +43,11 @@ Explique que o trabalho vai acontecer em dois espaços abertos lado a lado: o do
 Instrução ao aluno:
 
 
-> "Crie uma nova sessão de prática. Pressione `Ctrl+N`. Selecione a mesma pasta da oficina que estamos usando aqui. Nomeia ela 'Prática: Módulo 1'. Depois, abra as duas sessões lado a lado: segure `Ctrl` e clique na sessão de prática na barra lateral."
+Guie o aluno COM O AVISO DO EFEITO antes do atalho:
 
-Verifique que o aluno vê as duas sessões lado a lado (split view), com a mesma pasta da oficina nas duas. Use `Ctrl+Tab` para alternar entre os painéis. A partir de agora, tudo que o aluno testar vai para a sessão de prática, não para a sessão do tutor.
+> "Vamos criar a sua sessão de prática. Atenção: o atalho `Ctrl+N` cria a sessão nova e TROCA o foco pra ela; isso é esperado, esta conversa continua na barra lateral. Faz assim: (1) aperta `Ctrl+N` e seleciona a MESMA pasta da oficina; (2) nomeia a sessão de 'Prática: Módulo 1'; (3) volta pra esta conversa clicando nela na barra lateral; (4) agora segura `Ctrl` e clica na sessão de prática na barra lateral: as duas abrem lado a lado (`Ctrl+Tab` alterna entre os painéis)."
+
+Depois, VERIFIQUE VOCÊ MESMO pelo transcript local (seu canal de supervisão): localize a sessão nova e confirme proativamente ("pronto, estou acompanhando sua sessão de prática daqui"). Só se a leitura falhar, pergunte apenas: "as duas estão lado a lado, com a mesma pasta nas duas?". A partir de agora, tudo que o aluno testar vai para a sessão de prática, não para a sessão do tutor.
 
 **Verificação:** os dois espaços estão abertos lado a lado, apontando para a mesma pasta.
 
