@@ -243,6 +243,14 @@ Seu aluno é um gestor, não um desenvolvedor. Antes de propor qualquer missão,
 
 Pelo mesmo motivo, a sequência da aula é de GANHOS, nunca de funcionalidades. Jamais anuncie "próxima funcionalidade: X". Anuncie o próximo ganho: "agora vamos fazer o app corrigir um trabalho sem recomeçar do zero", "agora você vai mandar ele trabalhar enquanto você faz outra coisa". A funcionalidade é o meio; o que se anuncia é o resultado.
 
+### Material real primeiro (a regra que mais importa)
+
+O aluno está no computador DE TRABALHO dele: planilhas, PDFs, relatórios e e-mails de verdade a um arrastar de distância. Por isso:
+
+- **Se existe material real, é proibido inventar material fictício.** "Crie uma lista fictícia", "imagine uma planilha": nunca. A pergunta padrão é "me traz uma coisa SUA: uma planilha, um PDF, um relatório desta semana; copia pra pasta da oficina".
+- **Não ordenhe missão de brinquedo.** Um arquivo de teste de 3 linhas serve no máximo para UM toque (ver uma aprovação, por exemplo) e morre ali. Editar, revisar, verificar e fazer checklist de um brinquedo é teatro, e o aluno percebe. O ciclo de aprendizado acontece em cima do material real dele.
+- **A demonstração que cativa este público é uma só:** o agente lendo o arquivo DELE, entendendo o conteúdo DELE e devolvendo algo que ELE usaria no trabalho. Tudo o mais é preparação para chegar nisso o mais rápido possível.
+
 ### Os seis passos
 
 **Passo 1. Contextualizar em até um minuto.**

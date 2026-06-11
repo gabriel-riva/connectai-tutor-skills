@@ -76,19 +76,37 @@ Depois, VERIFIQUE VOCÊ MESMO pelo transcript local (seu canal de supervisão): 
 
 ---
 
-### Ato 3: primeira tarefa de verdade
+### Ato 3: o SEU material entra em cena
 
-Hora de viver uma aprovação real. Passe a instrução para a sessão de prática do aluno:
+REGRA ABSOLUTA deste ato: a primeira tarefa de verdade usa um arquivo REAL do aluno. Nunca crie arquivo fictício, lista inventada ou exemplo de mentira: o aluno tem um computador de trabalho cheio de material de verdade, e é nele que mora o impacto. Peça:
 
-> "Na sessão de prática, escreva o seguinte (adapte o trecho entre colchetes para a sua área): 'Crie um arquivo chamado teste.md com 3 linhas sobre o que você pode fazer por mim no meu trabalho de [financeiro / comercial / operações / marketing].' Depois clique em enviar e observe o que aparece antes de clicar em qualquer botão."
+> "Agora vem a melhor parte. Me traz uma coisa SUA: uma planilha, um PDF, um relatório, qualquer arquivo do teu trabalho que você mexeu essa semana. Copia (não move) ele pra nossa pasta da oficina, ou arrasta pra janela de prática. Pode ser bagunçado; quanto mais real, melhor."
 
-Quando o diálogo de aprovação aparecer, pause e explique:
+Com o arquivo na pasta, a missão na janela/sessão de prática:
 
-> "Esse aviso não é um problema; é uma proteção. O app está pedindo permissão antes de tocar nos seus arquivos. Você vê exatamente o que ele quer fazer. Se não concordar, nega. Se estiver certo, aprova. É assim que você fica no controle."
+> "Leia o arquivo [nome] e me diga: (1) o que você entendeu dele em 3 frases, e (2) três observações úteis que alguém de [área do aluno] gostaria de saber sobre esse conteúdo."
 
-Após a aprovação, verifique com o aluno que o arquivo `teste.md` apareceu na pasta.
+Se aparecer diálogo de aprovação (depende do modo de acesso), pause e explique:
 
-**Verificação:** aluno aprovou a ação conscientemente e viu o arquivo ser criado.
+> "Esse aviso é proteção, não burocracia: o app pede permissão antes de tocar nos seus arquivos, e mostra exatamente o que vai fazer. Você decide. É assim que você fica no controle."
+
+O momento que este ato persegue: o aluno ler a análise e pensar "ele entendeu o MEU arquivo". Verifique você mesmo o resultado pelo canal de supervisão e comente algo específico do conteúdo real.
+
+Se (e somente se) o aluno não tiver nenhum arquivo à mão, use a voz como alternativa: "segura o botão de ditado e me conta por 1 minuto um processo teu do trabalho, do teu jeito" e a missão vira transformar o despejo em documento estruturado. Fictício, nunca.
+
+**Verificação:** um arquivo real do aluno foi lido e analisado, e o aluno reagiu ao resultado.
+
+---
+
+### Ato 3b: do seu material para um entregável
+
+Ainda com o arquivo real do aluno, a segunda missão produz algo que ele USARIA no trabalho. Escolha com base na área e no arquivo (exemplos: tabela organizada com pendências, responsáveis e prazos; resumo executivo de uma página; rascunho de e-mail sobre o conteúdo). Missão na prática:
+
+> "A partir do [arquivo], crie [o entregável escolhido] e salve na pasta missões/. Capricha na organização: é pra eu usar de verdade."
+
+Enquanto o agente trabalha, ensine o steering com utilidade real: "manda agora, no meio do processo: 'deixa mais curto' ou 'põe em formato de tabela'". O resultado abre no painel de visualização: o aluno vê um documento com cara de trabalho, feito do material dele, em minutos.
+
+**Verificação:** existe um entregável real em `missões/` que o aluno admitiu que usaria (ou usaria com ajustes). Se ele disse "eu usaria", o módulo já valeu.
 
 ---
 
@@ -126,16 +144,16 @@ Se quiser manter a sessão à mão, procure no menu de contexto dela (clique com
 
 ## Variações por função
 
-Use o trecho entre colchetes do Ato 3 para calibrar a primeira tarefa de verdade:
+Use a área para sugerir QUAL arquivo real trazer (Ato 3) e QUAL entregável produzir (Ato 3b):
 
-| Área | Primeira tarefa de verdade |
-|---|---|
-| Financeiro | "Crie um arquivo chamado teste.md com 3 linhas sobre o que você pode fazer por mim no fechamento mensal." |
-| Comercial | "Crie um arquivo chamado teste.md com 3 linhas sobre o que você pode fazer por mim na preparação de propostas." |
-| Operações | "Crie um arquivo chamado teste.md com 3 linhas sobre o que você pode fazer por mim no acompanhamento de processos." |
-| Marketing | "Crie um arquivo chamado teste.md com 3 linhas sobre o que você pode fazer por mim na criação de conteúdo." |
-| Engenharia | "Crie um arquivo chamado teste.md com 3 linhas sobre o que você pode fazer por mim na documentação técnica." |
-| Holding/direção | "Crie um arquivo chamado teste.md com 3 linhas sobre o que você pode fazer por mim na consolidação de informações de áreas diferentes." |
+| Área | Arquivo real típico | Entregável do Ato 3b |
+|---|---|---|
+| Financeiro | Export do sistema, planilha de contas, relatório de fechamento | Resumo do mês em uma página com pontos de atenção |
+| Comercial | Lista de clientes/propostas, anotações de visita | Tabela de follow-ups com prioridade e rascunho de e-mail pro mais urgente |
+| Operações | Planilha de produção, apontamentos, checklist de processo | Quadro de pendências com responsável e prazo |
+| Marketing | Planilha de campanha, rascunho de conteúdo, relatório de redes | Calendário organizado ou variações do conteúdo no tom da marca |
+| Engenharia | Dados de medição, relatório técnico, manual | Tabela limpa e comparada, ou resumo técnico de uma página |
+| Holding/direção | Relatórios de empresas diferentes, atas | Consolidado executivo com os 5 pontos que pedem decisão |
 
 ---
 
