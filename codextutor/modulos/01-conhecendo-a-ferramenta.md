@@ -14,7 +14,7 @@ Cada espaço de trabalho tem o seu próprio histórico e os seus próprios arqui
 
 ## Missão guiada
 
-> Conduza um ato de cada vez. Só avance quando o aluno confirmar que terminou o ato anterior.
+> A lógica deste módulo: o aluno JÁ usa chat de IA (quase todos usam). Então nada aqui ensina o que o chat já faz. A missão é uma ESCALADA DE DEMONSTRAÇÕES do que só um agente faz: trabalho completo num pedido, arquivos da máquina, pesquisa autônoma. A interface (aprovações, painel, voz, steering) se aprende POR DENTRO das demonstrações, um toque cada, nunca como assunto. Conduza um ato de cada vez e mantenha o ritmo: a primeira demonstração de impacto precisa acontecer nos primeiros 10 minutos.
 
 ### Ato 1: reconhecimento da casa
 
@@ -57,74 +57,85 @@ Depois, VERIFIQUE VOCÊ MESMO: tente localizar e ler a thread de prática pelo s
 
 ---
 
-### Ato 3: o SEU material entra em cena
+### Ato 3 · Demonstração 1: trabalho completo num pedido
 
-REGRA ABSOLUTA deste ato: a primeira tarefa de verdade usa um arquivo REAL do aluno. Nunca crie arquivo fictício, lista inventada ou exemplo de mentira: o aluno tem um computador de trabalho cheio de material de verdade, e é nele que mora o impacto. Peça:
+O primeiro "isso o meu chat não faz". UM pedido, UM resultado completo e bonito. O tema vem da área do aluno (tabela de variações abaixo); o conteúdo pode ser fictício, desde que RICO e verossímil (fictício de brinquedo, tipo "3 linhas sobre", é proibido). Anuncie o ganho, não a função:
 
-> "Agora vem a melhor parte. Me traz uma coisa SUA: uma planilha, um PDF, um relatório, qualquer arquivo do teu trabalho que você mexeu essa semana. Copia (não move) ele pra nossa pasta da oficina, ou arrasta pra janela de prática. Pode ser bagunçado; quanto mais real, melhor."
+> "Primeira demonstração: você vai pedir UMA vez e receber um documento pronto, com cara de entrega. Cola na janela de prática: 'Monte um relatório de acompanhamento de [tema da área do aluno], com 5 indicadores numa tabela, análise curta de cada um e 3 recomendações no final. Capriche no visual e salve como página (HTML) na pasta missões/ para eu abrir no painel.'"
 
-Com o arquivo na pasta, a missão na janela/sessão de prática:
+Enquanto roda (1-3 minutos), prepare o aluno para os dois toques de interface que vão acontecer naturalmente:
 
-> "Leia o arquivo [nome] e me diga: (1) o que você entendeu dele em 3 frases, e (2) três observações úteis que alguém de [área do aluno] gostaria de saber sobre esse conteúdo."
+- Se aparecer pedido de aprovação: "esse aviso é proteção: o app pede permissão antes de tocar nos seus arquivos e mostra o que vai fazer; você decide". Um toque, segue.
+- Quando terminar: "clica no nome do arquivo que apareceu; ele abre no painel de visualização do lado". O aluno vê um relatório formatado, com tabela e recomendações, nascido de uma frase.
 
-Se aparecer diálogo de aprovação (depende do modo de acesso), pause e explique:
+Verifique o resultado você mesmo pelo canal de supervisão e comente algo específico do conteúdo. Feche o ato com a comparação explícita:
 
-> "Esse aviso é proteção, não burocracia: o app pede permissão antes de tocar nos seus arquivos, e mostra exatamente o que vai fazer. Você decide. É assim que você fica no controle."
+> "Repara no que acabou de acontecer: você não recebeu um texto pra copiar e colar. Recebeu um ARQUIVO pronto, salvo na sua pasta, formatado. É essa a diferença entre conversar com IA e ter um agente trabalhando."
 
-O momento que este ato persegue: o aluno ler a análise e pensar "ele entendeu o MEU arquivo". Verifique você mesmo o resultado pelo canal de supervisão e comente algo específico do conteúdo real.
-
-Se (e somente se) o aluno não tiver nenhum arquivo à mão, use a voz como alternativa: "segura o botão de ditado e me conta por 1 minuto um processo teu do trabalho, do teu jeito" e a missão vira transformar o despejo em documento estruturado. Fictício, nunca.
-
-**Verificação:** um arquivo real do aluno foi lido e analisado, e o aluno reagiu ao resultado.
+**Verificação:** existe um documento completo em `missões/`, o aluno abriu no painel e reagiu.
 
 ---
 
-### Ato 3b: do seu material para um entregável
+### Ato 4 · Demonstração 2: os SEUS arquivos
 
-Ainda com o arquivo real do aluno, a segunda missão produz algo que ele USARIA no trabalho. Escolha com base na área e no arquivo (exemplos: tabela organizada com pendências, responsáveis e prazos; resumo executivo de uma página; rascunho de e-mail sobre o conteúdo). Missão na prática:
+Agora o agente entra no mundo real do aluno. Prefira material verdadeiro (é o que mais converte), sem drama se não houver:
 
-> "A partir do [arquivo], crie [o entregável escolhido] e salve na pasta missões/. Capricha na organização: é pra eu usar de verdade."
+> "Agora com uma coisa SUA: me traz uma planilha, um PDF ou um relatório do teu trabalho. Copia (não move) pra pasta da oficina, ou arrasta pra janela de prática. Pode ser bagunçado; quanto mais real, melhor."
 
-Enquanto o agente trabalha, ensine o steering com utilidade real: "manda agora, no meio do processo: 'deixa mais curto' ou 'põe em formato de tabela'". O resultado abre no painel de visualização: o aluno vê um documento com cara de trabalho, feito do material dele, em minutos.
+Missão na prática, em duas batidas:
 
-**Verificação:** existe um entregável real em `missões/` que o aluno admitiu que usaria (ou usaria com ajustes). Se ele disse "eu usaria", o módulo já valeu.
+> "Leia o arquivo [nome] e me diga o que entendeu em 3 frases, mais três observações que alguém de [área] acharia úteis."
+
+E, com a leitura aprovada pelo aluno, a transformação em algo que ele USARIA (escolha pelo arquivo e pela área, tabela abaixo):
+
+> "A partir desse arquivo, crie [entregável da área] e salve em missões/. É pra eu usar de verdade."
+
+Se o aluno não tiver nenhum arquivo à mão, use a voz como ponte: "segura o ditado e me conta por 1 minuto um processo teu, do teu jeito" e a missão vira transformar o despejo falado em documento estruturado. O que este ato persegue: "ele entendeu o MEU mundo".
+
+**Verificação:** material do aluno (arquivo ou fala) virou um entregável que ele admitiu que usaria, com ou sem ajustes.
 
 ---
 
-### Ato 4: controles de quem manda
+### Ato 5 · Demonstração 3: pesquisa que trabalha sozinha (e você no comando)
 
-Apresente os três controles em ordem, um de cada vez, pedindo ao aluno que teste cada um na sessão de prática:
+A última demonstração junta autonomia e controle. Anuncie o ganho:
 
-**Steering (correção em voo):** enquanto o agente está trabalhando, você pode enviar uma nova mensagem que muda o que ele está fazendo agora. Não precisa esperar terminar. Exemplo: peça algo um pouco comprido na prática, e no meio do processo, envie "pode deixar mais curto".
+> "Última demonstração de hoje: ele vai trabalhar uns minutos SOZINHO pra você, pesquisando na internet com fontes. Cola na prática: 'Pesquise [tema quente da área do aluno: fornecedores de X, normas de Y, tendências de Z no Brasil] e monte um comparativo em tabela com fontes linkadas no final.'"
 
-**Queuing (enfileirar):** você pode adicionar a próxima instrução antes do passo atual terminar. O agente executa assim que concluir o que está fazendo. Exemplo: enquanto ele ainda trabalha, envie "quando terminar, me diz quantas palavras esse texto tem".
+Enquanto o agente pesquisa (vai levar alguns minutos, e isso é PARTE da lição), ensine os controles de quem manda, com utilidade real:
 
-**Voz:**
+- **Steering (corrigir em voo):** "manda agora, no meio do trabalho: 'foca só em empresas brasileiras' ou 'põe em tabela'. Ele ajusta sem recomeçar."
+- **Queuing (enfileirar):** "agora manda: 'quando terminar, resume em 5 linhas pra eu mandar no grupo'. Ele guarda e executa quando acabar."
+- **Voz:** "o próximo pedido, dita em vez de digitar: segura `Ctrl+M` e fala do teu jeito; o texto aparece no campo pra você revisar antes de enviar."- E a observação que muda a relação com a ferramenta: "repara que você não precisou ficar olhando. Ele trabalha; você volta quando quiser. Semana que vem te mostro isso rodando sozinho em horário marcado, e até do celular."
 
-Mantenha pressionado `Ctrl+M` para ativar o ditado. O texto aparece no compositor. Edite antes de enviar ou envie direto. Útil para pensamentos rápidos ou dumps de contexto.
+**Verificação:** o comparativo chegou com fontes, o aluno usou steering ao menos uma vez e percebeu que não precisa supervisionar cada segundo.
 
+---
 
-**Manter a sessão/thread importante à mão:**
+### Fechamento do módulo
 
-Passe o mouse sobre a thread de prática na barra lateral, clique nos três pontos e selecione **Pin**. A thread sobe para o topo da lista e fica acessível rapidamente via `Ctrl+1` a `Ctrl+9` (confirme no seu app, pois o atalho é recente).
+Sem quiz. VOCÊ resume os três "isso o chat não faz" que o aluno viveu (arquivo pronto e salvo; o material DELE lido e transformado; trabalho autônomo com fontes), em três frases. Depois, organização em um toque:
 
+"Última coisa: vamos fixar a tua thread de prática pra ela ficar sempre à mão. Três pontos nela na barra lateral, opção Pin. Pronto: ela sobe pro topo."
 
-**Verificação:** aluno demonstrou steering, entendeu queuing e sabe como deixar a sessão/thread importante fácil de reencontrar.
+E a ponte: "isso foi a primeira prova do que ele faz. Sua trilha tem [eletivas do aluno] na frente; e quando chegar no módulo Construtor, você vai empacotar um processo SEU pra rodar sempre. Bora pro próximo passo ou quer repetir alguma dessas com outro material teu?"
+
+**Verificação:** trilha atualizada com o módulo concluído e o aluno escolheu o próximo passo.
 
 ---
 
 ## Variações por função
 
-Use a área para sugerir QUAL arquivo real trazer (Ato 3) e QUAL entregável produzir (Ato 3b):
+Use a área do aluno para calibrar as três demonstrações:
 
-| Área | Arquivo real típico | Entregável do Ato 3b |
-|---|---|---|
-| Financeiro | Export do sistema, planilha de contas, relatório de fechamento | Resumo do mês em uma página com pontos de atenção |
-| Comercial | Lista de clientes/propostas, anotações de visita | Tabela de follow-ups com prioridade e rascunho de e-mail pro mais urgente |
-| Operações | Planilha de produção, apontamentos, checklist de processo | Quadro de pendências com responsável e prazo |
-| Marketing | Planilha de campanha, rascunho de conteúdo, relatório de redes | Calendário organizado ou variações do conteúdo no tom da marca |
-| Engenharia | Dados de medição, relatório técnico, manual | Tabela limpa e comparada, ou resumo técnico de uma página |
-| Holding/direção | Relatórios de empresas diferentes, atas | Consolidado executivo com os 5 pontos que pedem decisão |
+| Área | Demonstração 1: tema do relatório | Demonstração 2: arquivo real típico → entregável | Demonstração 3: pesquisa |
+|---|---|---|---|
+| Financeiro | Acompanhamento de fechamento mensal (receita, custos, inadimplência, margem, caixa) | Export do sistema ou planilha de contas → resumo do mês com pontos de atenção | Indicadores de referência do setor, linhas de crédito, taxas atuais |
+| Comercial | Funil de vendas (leads, propostas, conversão, ticket, ciclo) | Lista de clientes/propostas → tabela de follow-ups com prioridade + rascunho do e-mail mais urgente | Concorrentes e preços praticados no segmento |
+| Operações | Acompanhamento de produção (volume, refugo, paradas, prazo, produtividade) | Planilha de produção/apontamentos → quadro de pendências com responsável e prazo | Fornecedores de um insumo crítico, comparados |
+| Marketing | Desempenho de campanhas (alcance, cliques, leads, custo, conversão) | Planilha de campanha/conteúdo → calendário organizado ou variações no tom da marca | Tendências e benchmarks do setor no Brasil |
+| Engenharia | Indicadores técnicos (medições, conformidade, manutenção, retrabalho) | Dados de medição/relatório técnico → tabela limpa e comparada ou resumo de uma página | Normas aplicáveis ou fornecedores técnicos, comparados |
+| Holding/direção | Painel executivo multiempresa (receita, margem, caixa, pendências por empresa) | Relatórios de empresas diferentes → consolidado com os 5 pontos que pedem decisão | Editais de fomento ou referências de mercado para o grupo |
 
 ---
 

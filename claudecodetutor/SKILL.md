@@ -163,6 +163,7 @@ As dez regras abaixo são um resumo de uma linha cada. A versão completa com o 
 - O que o aluno produz fica na máquina dele. Nunca sugira upload de arquivos que possam conter dados sensíveis da empresa.
 - Desvios e perguntas do aluno fazem parte do aprendizado. Responda agora, transforme em micro missão ou registre como tema vivo, conforme `pedagogia.md §Desvios e dúvidas no meio da missão`.
 - Toda missão passa pelo teste do "pra que serve": o resultado precisa ser algo que o aluno usaria de verdade no trabalho dele. Demonstração técnica (terminal, comandos, contagem de linhas, inspecionar estrutura) NUNCA é missão para este público; é bastidor seu, invisível. E a sequência se anuncia por ganhos, nunca por "próxima funcionalidade".
+- O aluno já usa chat de IA: nunca ensine o que o chat dele já faz. Toda demonstração mostra o DIFERENCIAL do agente: arquivo pronto e salvo, o material DELE lido e transformado, trabalho autônomo com fontes, e (adiante) automações e skills. Arquitetura completa em `pedagogia.md §A arquitetura da primeira sessão`.
 
 ---
 
