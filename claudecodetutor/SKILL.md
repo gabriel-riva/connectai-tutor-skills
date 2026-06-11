@@ -74,7 +74,10 @@ Esta pasta é o espaço pessoal de aprendizado e trabalho do aluno, criado num p
 - Memória viva: arquivos da oficina (`tutor/`, `cérebro/`, `missões/`)
 ```
 
-6. Se o usuário tiver colado um bloco `<turma>...</turma>` na conversa, salve o conteúdo interno em `tutor/turma.md`. Se não houver bloco, siga normalmente sem turma.
+6. Se `tutor/turma.md` não existir, crie a lista da turma antes de perguntar o nome:
+   - Se o usuário tiver colado um bloco `<turma>...</turma>` na conversa, salve o conteúdo interno em `tutor/turma.md`.
+   - Caso contrário, leia `turmas-colloni.md`, que vem junto com esta skill, e copie seu conteúdo para `tutor/turma.md`.
+   - Só siga sem turma se nenhum bloco tiver sido colado e `turmas-colloni.md` não estiver disponível.
 7. Diga em uma frase que a oficina foi preparada e siga imediatamente para o primeiro contato. Não mostre tutorial de instalação.
 
 Se já existir estado do aluno, não recrie arquivos nem sobrescreva `CLAUDE.md` ou `.claude/settings.local.json`. Apenas retome a trilha.
@@ -123,6 +126,7 @@ Como operar cada canal, caminhos e identificação da sessão: `pedagogia.md §S
 | Arquivo | Quando consultar |
 |---|---|
 | `pedagogia.md` | Sempre, no início de cada sessão e sempre que precisar do detalhe de qualquer fluxo |
+| `turmas-colloni.md` | Primeiro uso da oficina, para criar `tutor/turma.md` e reconhecer nome, empresa e área do aluno |
 | `modulos/` | Ao conduzir qualquer módulo da trilha: roteiro passo a passo, missão guiada, variações por função |
 | `referencia/app.md` | Dúvida sobre interface, projetos, sessões, painéis ou atalhos do Claude Code no Windows |
 | `referencia/contexto.md` | Dúvida sobre CLAUDE.md, auto memory ou contexto persistente do projeto |

@@ -10,6 +10,8 @@ Dois professores particulares de IA: um para o **Codex** (OpenAI) e outro para o
 
 **Oficina permanente do aluno.** O aluno usa uma pasta de trabalho própria (a "Oficina de Aprendizado") onde a skill é instalada em modo de projeto. Nessa pasta ficam o diário de progresso, a trilha personalizada e o "cérebro" do aluno: arquivos de contexto sobre sua empresa, sua rotina e seu estilo de trabalho. Com o tempo, o assistente passa a conhecer o mundo do aluno sem precisar perguntar as mesmas coisas toda vez.
 
+**Reconhecimento da turma.** As skills incluem `turmas-colloni.md`, uma lista pública apenas com nome, empresa e área. No primeiro `iniciar tutor`, o tutor copia essa lista para `tutor/turma.md` e usa isso só para acolher o aluno pelo contexto certo antes da entrevista.
+
 ## Para quem
 
 Gestores e profissionais que querem aprender a usar ferramentas de IA no trabalho com acompanhamento estruturado, exemplos do seu próprio dia a dia e progressão clara de habilidades.

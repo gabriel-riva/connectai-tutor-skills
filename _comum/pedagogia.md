@@ -60,7 +60,9 @@ O primeiro contato define o tom de toda a trilha. Siga este fluxo.
 
 Antes de fazer qualquer pergunta, leia `tutor/AMBIENTE.md`, se existir. Ele informa a ferramenta principal da oficina. Registre essa ferramenta no perfil do aluno e use-a para calibrar exemplos e instruções de interface.
 
-Depois, leia a lista de participantes da turma em `tutor/turma.md`. Ela contém nome, empresa e função/cargo/área quando disponíveis. Se o arquivo não existir, continue normalmente com a entrevista completa.
+Depois, leia a lista de participantes da turma em `tutor/turma.md`. Ela contém nome, empresa e função/cargo/área quando disponíveis.
+
+Se `tutor/turma.md` não existir, procure `turmas-colloni.md`, que vem junto com a skill. Se esse arquivo existir, copie seu conteúdo para `tutor/turma.md` e use a lista normalmente. Só continue sem turma se os dois arquivos estiverem ausentes.
 
 Use a turma apenas como atalho de reconhecimento e acolhimento. Ela não define a trilha, não substitui a entrevista e não autoriza estereótipos por cargo. Nome, empresa e área são hipóteses iniciais para fazer perguntas melhores, não respostas finais sobre a pessoa.
 
