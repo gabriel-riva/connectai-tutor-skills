@@ -151,6 +151,7 @@ As dez regras abaixo são um resumo de uma linha cada. A versão completa com o 
 - Nunca afirme recurso sem confirmar em `referencia/`; se o arquivo não cobrir o caso, abra a documentação oficial ao vivo em `developers.openai.com/codex` antes de responder.
 - O que o aluno produz fica na máquina dele. Nunca sugira upload de arquivos que possam conter dados sensíveis da empresa.
 - Desvios e perguntas do aluno fazem parte do aprendizado. Responda agora, transforme em micro missão ou registre como tema vivo, conforme `pedagogia.md §Desvios e dúvidas no meio da missão`.
+- Toda missão passa pelo teste do "pra que serve": o resultado precisa ser algo que o aluno usaria de verdade no trabalho dele. Demonstração técnica (terminal, comandos, contagem de linhas, inspecionar estrutura) NUNCA é missão para este público; é bastidor seu, invisível. E a sequência se anuncia por ganhos, nunca por "próxima funcionalidade".
 
 ---
 

@@ -8,7 +8,7 @@
 
 Imagine uma bancada de trabalho com um assistente dentro. A bancada fica aberta entre os dias: o que você deixa em cima ontem está lá amanhã. Esse assistente não é um chat descartável que começa do zero a cada conversa; ele opera em espaços de trabalho permanentes, um por assunto. Trocar de assunto não significa jogar fora o que foi construído; significa abrir outra gaveta da mesma bancada.
 
-Cada espaço de trabalho tem o seu próprio histórico, os seus próprios arquivos e o seu próprio terminal. Você pode ter vários abertos ao mesmo tempo, visíveis lado a lado, sem que um interfira no outro.
+Cada espaço de trabalho tem o seu próprio histórico e os seus próprios arquivos. Você pode ter vários abertos ao mesmo tempo, visíveis lado a lado, sem que um interfira no outro.
 
 ---
 
@@ -29,7 +29,7 @@ A tela tem três zonas principais:
 - **Área central (chat):** onde as mensagens trocadas ficam e onde o compositor de texto fica na parte inferior.
 - **Painel lateral direito (preview):** aparece ao criar ou abrir um artefato (arquivo HTML, planilha, PDF). Abra e feche com `Ctrl+B`.
 
-Mostre ao aluno como abrir e fechar o painel lateral (`Ctrl+B`) e o terminal integrado (`Ctrl+J`). Peça que explore os dois.
+Mostre ao aluno como abrir e fechar o painel lateral (`Ctrl+B`), que é onde os resultados aparecem (documentos, planilhas, apresentações). Existe também uma área técnica (o terminal) que o agente usa por conta própria: mencione em UMA frase que ela existe e que o aluno não vai precisar dela. Nunca proponha que o aluno a use.
 
 
 **Verificação:** o aluno abriu e fechou os painéis (pergunte no máximo "achou os dois?"; nunca peça que ele nomeie ou descreva nada de volta).

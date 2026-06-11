@@ -8,7 +8,7 @@
 
 Imagine uma bancada de trabalho com um assistente dentro. A bancada fica aberta entre os dias: o que você deixa em cima ontem está lá amanhã. Esse assistente não é um chat descartável que começa do zero a cada conversa; ele opera em espaços de trabalho permanentes, um por assunto. Trocar de assunto não significa jogar fora o que foi construído; significa abrir outra gaveta da mesma bancada.
 
-Cada espaço de trabalho tem o seu próprio histórico, os seus próprios arquivos e o seu próprio terminal. Você pode ter vários abertos ao mesmo tempo, visíveis lado a lado, sem que um interfira no outro.
+Cada espaço de trabalho tem o seu próprio histórico e os seus próprios arquivos. Você pode ter vários abertos ao mesmo tempo, visíveis lado a lado, sem que um interfira no outro.
 
 ---
 
@@ -30,16 +30,16 @@ A tela tem três zonas principais:
 - **Área central (chat):** onde as mensagens trocadas ficam e onde o compositor de texto fica na parte inferior.
 - **Painel lateral direito (preview):** aparece ao criar ou abrir um artefato (arquivo HTML, planilha, PDF). Abra e feche com `Ctrl+B`.
 
-Mostre ao aluno como abrir e fechar o painel lateral (`Ctrl+B`) e o terminal integrado (`Ctrl+J`). Peça que explore os dois.
+Mostre ao aluno como abrir e fechar o painel lateral (`Ctrl+B`), que é onde os resultados aparecem (documentos, planilhas, apresentações). Existe também uma área técnica (o terminal) que o agente usa por conta própria: mencione em UMA frase que ela existe e que o aluno não vai precisar dela. Nunca proponha que o aluno a use.
 <!-- @/codex -->
 
 <!-- @claude -->
 A tela tem três zonas principais:
 - **Barra lateral esquerda:** lista de sessões abertas, agrupáveis por projeto, com filtros de status no topo.
 - **Área central (chat):** histórico de mensagens e compositor de texto na parte inferior.
-- **Painéis arrastáveis:** o espaço à direita do chat pode abrir painéis de visualização: o de alterações (o "controle de alterações" do Word, aplicado a qualquer arquivo; nome técnico: diff), o de preview (a prévia do resultado) e o terminal (a janela onde o app executa comandos). Arraste o cabeçalho de qualquer painel para reposicioná-lo; arraste a borda para redimensionar.
+- **Painéis arrastáveis:** o espaço à direita do chat pode abrir painéis de visualização: o de alterações (o "controle de alterações" do Word, aplicado a qualquer arquivo; nome técnico: diff) e o de preview (a prévia do resultado: documentos, planilhas, páginas). Arraste o cabeçalho de qualquer painel para reposicioná-lo; arraste a borda para redimensionar.
 
-Mostre ao aluno como abrir o terminal integrado (`Ctrl+`` `) e o painel de alterações (`Ctrl+Shift+D`). Peça que abra e feche cada um.
+Mostre ao aluno como abrir o painel de preview (`Ctrl+Shift+P`) e o de alterações (`Ctrl+Shift+D`). Peça que abra e feche cada um. Existe também uma área técnica (o terminal) que o agente usa por conta própria: mencione em UMA frase que ela existe e que o aluno não vai precisar dela. Nunca proponha que o aluno a use.
 <!-- @/claude -->
 
 **Verificação:** o aluno abriu e fechou os painéis (pergunte no máximo "achou os dois?"; nunca peça que ele nomeie ou descreva nada de volta).
