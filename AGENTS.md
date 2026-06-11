@@ -12,7 +12,7 @@ Use o instalador nativo de skills do Codex, equivalente a:
 install-skill-from-github --repo gabriel-riva/connectai-tutor-skills --path codextutor
 ```
 
-Depois da instalação, diga ao usuário para reiniciar o Codex e, na pasta escolhida como Oficina de Aprendizado, escrever:
+Depois da instalação, diga ao usuário para reiniciar o Codex para garantir que a nova skill foi carregada. Em seguida, na pasta escolhida como Oficina de Aprendizado, ele deve escrever:
 
 ```text
 iniciar tutor
@@ -31,6 +31,8 @@ iniciar tutor
 ```
 
 A própria skill cria `tutor/`, `missões/`, `cérebro/`, `tutor/AMBIENTE.md`, `CLAUDE.md` e `.claude/settings.local.json` na primeira ativação.
+
+Se a skill não aparecer ou não ativar no Claude Code, oriente o usuário a iniciar uma nova sessão ou reiniciar o app.
 
 ## Arquivos de desenvolvimento
 

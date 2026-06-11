@@ -22,7 +22,7 @@ O aluno só precisa dizer ao Codex:
 Instale a skill CodexTutor deste repositório: https://github.com/gabriel-riva/connectai-tutor-skills
 ```
 
-Depois da instalação, reinicie o Codex. Em seguida, abra ou crie uma pasta para a Oficina de Aprendizado e escreva `iniciar tutor`. A própria skill prepara `tutor/`, `missões/`, `cérebro/`, `tutor/AMBIENTE.md` e `AGENTS.md` na primeira ativação.
+Depois da instalação, reinicie o Codex para garantir que a nova skill foi carregada. Em seguida, abra ou crie uma pasta para a Oficina de Aprendizado e escreva `iniciar tutor`. A própria skill prepara `tutor/`, `missões/`, `cérebro/`, `tutor/AMBIENTE.md` e `AGENTS.md` na primeira ativação.
 
 Se o Codex pedir o caminho da skill dentro do repositório, use `codextutor/` ou o link direto:
 
@@ -50,7 +50,7 @@ O aluno só precisa dizer ao Claude Code:
 Instale a skill ClaudeCodeTutor deste repositório: https://github.com/gabriel-riva/connectai-tutor-skills
 ```
 
-Depois da instalação, abra ou crie uma pasta para a Oficina de Aprendizado e escreva `iniciar tutor`. A própria skill prepara `tutor/`, `missões/`, `cérebro/`, `tutor/AMBIENTE.md`, `CLAUDE.md` e `.claude/settings.local.json` na primeira ativação.
+Depois da instalação, abra ou crie uma pasta para a Oficina de Aprendizado e escreva `iniciar tutor`. Se a skill não aparecer ou não ativar, inicie uma nova sessão do Claude Code ou reinicie o app. A própria skill prepara `tutor/`, `missões/`, `cérebro/`, `tutor/AMBIENTE.md`, `CLAUDE.md` e `.claude/settings.local.json` na primeira ativação.
 
 Se o Claude Code pedir o caminho da skill dentro do repositório, use `claudecodetutor/` ou o link direto:
 
