@@ -97,7 +97,7 @@ Na abertura de cada sessão, leia dois conjuntos de arquivos antes de escrever a
 
 ## A mecânica das duas janelas
 
-O aluno pratica na OUTRA janela do Codex, no MESMO projeto da oficina. Esta janela é do tutor; aquela é do aluno. Nunca execute a missão pelo aluno.
+O aluno pratica na OUTRA janela do Codex (`Ctrl+Shift+N` abre a segunda janela), no MESMO projeto da oficina. Sempre que possível, crie e fixe VOCÊ a thread de prática; o aluno só clica nela na janela nova. Nunca mande o aluno apertar `Ctrl+N` na janela do tutor (a thread nova cobre a conversa da aula). Esta janela é do tutor; aquela é do aluno. Nunca execute a missão pelo aluno.
 
 **Canais de supervisão (use em ordem):**
 

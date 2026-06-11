@@ -20,7 +20,9 @@ O Codex organiza o trabalho em **projetos**: cada projeto corresponde a uma past
 
 Uma thread (conversa) é a unidade básica de trabalho. Cada thread tem um modo de execução, um histórico de mensagens e um terminal próprio.
 
-**Criar uma thread:** `Ctrl+N` ou `Ctrl+Shift+O`.
+**Criar uma thread:** `Ctrl+N` ou `Ctrl+Shift+O`. Atenção: o atalho troca a tela para a thread nova; a anterior continua na barra lateral.
+
+**Nova janela do app:** `Ctrl+Shift+N` (menu Arquivo > New Window). Abre uma segunda janela independente do Codex, sem afetar a conversa atual: é o caminho preferido para trabalhar com duas threads lado a lado (por exemplo, tutor numa janela e prática na outra).
 
 **Navegar entre threads:** `Ctrl+Shift+[` (anterior) e `Ctrl+Shift+]` (próxima).
 
@@ -198,6 +200,7 @@ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned
 | Configurações | `Ctrl+,` |
 | Abrir pasta | `Ctrl+O` |
 | Nova thread | `Ctrl+N` ou `Ctrl+Shift+O` |
+| Nova janela do app | `Ctrl+Shift+N` |
 | Buscar threads | `Ctrl+G` |
 | Thread anterior/próxima | `Ctrl+Shift+[` / `Ctrl+Shift+]` |
 | Thread fixada 1-9 | `Ctrl+1` a `Ctrl+9` (citado em material recente; confirme no app) |

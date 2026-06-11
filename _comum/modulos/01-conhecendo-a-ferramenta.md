@@ -55,11 +55,13 @@ Instrução ao aluno:
 <!-- @codex -->
 PRIMEIRO, tente VOCÊ criar a thread de prática (gestão de threads): crie silenciosamente uma thread chamada "Prática: Módulo 1" neste projeto e fixe-a. Se conseguir, o aluno não precisa criar nada; diga:
 
-> "Já criei a sua thread de prática, olha ela na barra lateral: 'Prática: Módulo 1'. Agora só destaca ela numa janela separada: clica nos três pontos dela e escolhe a opção de destacar em janela separada. Coloca lado a lado com esta."
+> "Já criei e fixei a sua thread de prática, olha ela na barra lateral: 'Prática: Módulo 1'. Agora abre uma segunda janela do app: aperta `Ctrl+Shift+N` (abre uma janela NOVA do Codex, esta conversa continua intacta aqui). Na janela nova, clica na 'Prática: Módulo 1' na barra lateral. Aí coloca as duas janelas lado a lado: `Win+←` numa, `Win+→` na outra."
 
-Se NÃO conseguir criar (recurso indisponível na versão), guie o aluno COM O AVISO DO EFEITO antes do atalho:
+Se NÃO conseguir criar (recurso indisponível na versão), a segunda janela continua resolvendo:
 
-> "Vamos criar a sua thread de prática. Atenção: o atalho `Ctrl+N` cria a thread nova e TROCA a tela pra ela; isso é esperado, você não perde esta conversa. Faz assim: (1) aperta `Ctrl+N`; (2) nomeia a thread de 'Prática: Módulo 1'; (3) clica nos três pontos dela e escolhe destacar em janela separada; (4) volta pra esta conversa clicando nela na barra lateral; (5) posiciona as duas janelas lado a lado."
+> "Vamos montar a sua bancada. Aperta `Ctrl+Shift+N`: abre uma segunda janela do Codex, e esta conversa continua intacta aqui. Na janela NOVA, aperta `Ctrl+N` pra criar a thread de prática e nomeia ela de 'Prática: Módulo 1'. Aí coloca as duas janelas lado a lado: `Win+←` numa, `Win+→` na outra."
+
+NUNCA mande o aluno apertar `Ctrl+N` na janela do tutor: o atalho cria a thread nova POR CIMA desta conversa e o aluno sente que foi expulso da aula. Thread nova, só na segunda janela.
 
 Depois, VERIFIQUE VOCÊ MESMO: tente localizar e ler a thread de prática pelo seu canal de supervisão. Se conseguir, confirme proativamente ("pronto, estou enxergando sua thread de prática daqui"). Só se não conseguir, pergunte apenas: "as duas janelas estão lado a lado, com a mesma pasta nas duas?". A partir de agora, tudo que o aluno testar vai para a thread de prática, não para a thread do tutor.
 <!-- @/codex -->
