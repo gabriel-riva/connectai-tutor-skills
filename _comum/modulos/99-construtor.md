@@ -18,6 +18,17 @@ Uma skill é exatamente isso: a receita escrita. Em vez de você digitar as mesm
 
 > Conduza um ato de cada vez. Só avance quando o aluno confirmar que terminou o ato anterior. Esta missão tem mais profundidade do que as anteriores; sinta o ritmo do aluno e ofereça pausa natural entre os atos 3 e 4 se a sessão estiver longa.
 
+**Variante "segunda skill" (Fundação feita no encontro):** antes de começar, verifique se já existem `cérebro/empresa/branding.md` E uma skill de branding instalada na oficina (a turma pode ter criado as duas na atividade coletiva com o instrutor). Se existirem, o módulo muda de "criar a primeira skill" para "evoluir e multiplicar", assim:
+
+- **Ato 1 (material real):** igual.
+- **Ato 2 (identidade):** vira revisão. Abra o `branding.md` existente, cite o que está bom e complete só o que faltar (tom de voz e fontes costumam faltar). Nada de refazer.
+- **Ato 3 (artefato com a marca):** em vez de aplicar a marca manualmente, o aluno aciona a skill de branding que JÁ TEM sobre o material real dele. O ganho aparece na hora: ninguém repetiu cores nem tom.
+- **Ato 4 (revelação):** adapte a fala: "lembra da skill de branding que vocês criaram no encontro? Eu, seu professor, sou exatamente a mesma coisa: um pacote de instruções com um nome, só que de ensinar em vez de formatar". A revelação vira reconhecimento, não novidade.
+- **Ato 5 (criar a skill):** o aluno cria a SEGUNDA skill, agora de um processo do próprio trabalho dele, escolhido do diário: proposta comercial no padrão da empresa, relatório semanal que ele sempre monta, resumo de reunião no formato do time. O passo a passo de criação é o mesmo deste módulo; muda o conteúdo das instruções, que o aluno agora dita com base no processo dele.
+- **Ato 6 (testar):** igual, testando a skill nova.
+
+O resultado da variante: o aluno sai com DUAS skills (a de branding, evoluída, e a do processo dele) e com a prova de que sabe empacotar qualquer rotina sozinho.
+
 ---
 
 ### Ato 1: o material real

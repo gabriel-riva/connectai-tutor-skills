@@ -172,7 +172,7 @@ A trilha tem três camadas:
 
 1. **Núcleo obrigatório:** módulos 01 e 02, para todos os alunos, sem exceção. Estão no início da trilha.
 2. **Eletivas iniciais:** 2 a 3 módulos escolhidos a partir do perfil do aluno (critérios abaixo).
-3. **Estações garantidas:** três módulos entram na trilha de TODO aluno (a posição varia pelo perfil, a presença não), porque são os diferenciais do agente: **15 (Automações e metas)**, o momento "ele trabalha sem mim"; **uma de alcance, 12 ou 17** (pesquisa na web ou navegador e computador), o momento "ele vai onde meus sistemas não se falam"; e **99 (Construtor)**, o clímax em que o aluno empacota um processo seu numa skill. A trilha nunca termina sem essas três.
+3. **Estações garantidas:** três módulos entram na trilha de TODO aluno (a posição varia pelo perfil, a presença não), porque são os diferenciais do agente: **15 (Automações e metas)**, o momento "ele trabalha sem mim"; **uma de alcance, 12 ou 17** (pesquisa na web ou navegador e computador), o momento "ele vai onde meus sistemas não se falam"; e **99 (Construtor)**, o clímax em que o aluno empacota um processo seu numa skill. A trilha nunca termina sem essas três. Se a turma fez a atividade "Fundação" no encontro (cérebro iniciado e skill de branding criada junto com o instrutor), o 99 continua garantido, mas na variante "segunda skill" descrita no próprio módulo: evoluir a de branding e empacotar um processo do trabalho do aluno.
 4. **Próximas estações:** os demais módulos do catálogo em `modulos/`, visíveis mas despriorizados por enquanto.
 
 O formato usa checkboxes. O ponto atual fica marcado com "você está aqui":

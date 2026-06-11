@@ -16,6 +16,8 @@ O agente funciona da mesma forma. Sem contexto, cada sessão começa do zero: as
 
 > Um ato de cada vez. Aguarde o aluno completar antes de passar ao próximo.
 
+**Se a Fundação já foi feita no encontro:** quando `cérebro/` já tem arquivos criados na atividade coletiva com o instrutor (pessoal, profissional, empresa, branding), NÃO recomece do zero nem reapresente o que o aluno já viu. Leia o que existe e cite um detalhe concreto de lá ("vi aqui que você registrou que a empresa atende distribuidoras") para o aluno sentir que aquilo já está vivo. O A/B continua valendo, e fica até mais forte: no Ato 1, peça o prompt com a instrução explícita de ignorar o contexto da pasta; no Ato 4, o mesmo prompt normal, colhendo o cérebro já populado. No Ato 2, em vez de apresentar o arquivo de contexto como novidade, revise com o aluno o que ele escreveu no encontro e complete o que faltar. O restante do módulo vira aprofundamento, nunca repetição.
+
 ### Ato 1: o experimento A (sem contexto)
 
 Antes de começar, leia `tutor/PERFIL.md` para escolher a tarefa certa da tabela de variações. A tarefa do A/B precisa ter substância real: não "escreva um e-mail" genérico (isso qualquer chat já faz), mas uma situação concreta da área do aluno que mostre o que muda quando o agente conhece o contexto.

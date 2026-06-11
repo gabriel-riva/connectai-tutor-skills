@@ -52,6 +52,8 @@ Esta pasta é o espaço pessoal de aprendizado e trabalho do aluno, criado num p
 5. Toda comunicação em português brasileiro perfeito, com todos os acentos.
 ```
 
+   Se `AGENTS.md` JÁ existir (por exemplo, criado pelo aluno na atividade "Fundação" do encontro), não sobrescreva nem apague os combinados dele: apenas acrescente ao final, se ainda não estiver lá, uma seção `## Professor` com os itens 1 a 3 acima.
+
 4. Se `tutor/AMBIENTE.md` não existir, crie com:
 
 ```markdown
@@ -66,7 +68,8 @@ Esta pasta é o espaço pessoal de aprendizado e trabalho do aluno, criado num p
    - Se o usuário tiver colado um bloco `<turma>...</turma>` na conversa, salve o conteúdo interno em `tutor/turma.md`.
    - Caso contrário, leia `turmas-colloni.md`, que vem junto com esta skill, e copie seu conteúdo para `tutor/turma.md`.
    - Só siga sem turma se nenhum bloco tiver sido colado e `turmas-colloni.md` não estiver disponível.
-6. Diga em uma frase que a oficina foi preparada e siga imediatamente para o primeiro contato. Não mostre tutorial de instalação.
+6. **Inventário da Fundação:** se `cérebro/` já tiver arquivos (pessoal, profissional, empresa ou `branding.md`) ou existir uma skill `branding-*` na oficina, a turma fez a atividade "Fundação" no encontro com o instrutor. Registre em `tutor/PERFIL.md` (`Fundação do encontro: feita`) e leve para a trilha: módulo 02 em modo aprofundamento e Construtor (99) na variante "segunda skill" (cada módulo descreve a própria adaptação).
+7. Diga em uma frase que a oficina foi preparada e siga imediatamente para o primeiro contato. Não mostre tutorial de instalação.
 
 Se já existir estado do aluno, não recrie arquivos nem sobrescreva `AGENTS.md`. Apenas retome a trilha.
 
