@@ -2,6 +2,8 @@
 
 Dois professores particulares de IA: um para o **Codex** (OpenAI) e outro para o **Claude Code** (Anthropic). Cada tutor vive como uma skill no respectivo app e conduz o aluno por aulas, trilhas personalizadas e missões práticas.
 
+**Regra de instalação:** instale uma única skill por projeto. No Codex, instale somente `codextutor/`. No Claude Code, instale somente `claudecodetutor/`. Não instale as duas, salvo pedido explícito.
+
 ## O que é
 
 **Professor particular como skill.** Ao contrário de tutoriais genéricos, cada tutor aprende quem é o aluno: seu cargo, sua empresa, como ele escreve, o que ele produz no dia a dia. As missões partem desse contexto e evoluem conforme o aluno avança. A trilha é montada na primeira conversa e ajustada a cada sessão.
@@ -11,6 +13,32 @@ Dois professores particulares de IA: um para o **Codex** (OpenAI) e outro para o
 ## Para quem
 
 Gestores e profissionais que querem aprender a usar ferramentas de IA no trabalho com acompanhamento estruturado, exemplos do seu próprio dia a dia e progressão clara de habilidades.
+
+---
+
+## Instalação rápida
+
+No **Codex**, abra uma pasta nova ou vazia que será a Oficina de Aprendizado e diga:
+
+```text
+Instale este repositório neste projeto, não globalmente: https://github.com/gabriel-riva/connectai-tutor-skills
+```
+
+No Codex, esse pedido significa instalar somente `codextutor/` em `.agents/skills/codextutor/`.
+
+No **Claude Code**, abra uma pasta nova ou vazia que será a Oficina de Aprendizado e diga:
+
+```text
+Instale este repositório neste projeto, não globalmente: https://github.com/gabriel-riva/connectai-tutor-skills
+```
+
+No Claude Code, esse pedido significa instalar somente `claudecodetutor/` em `.claude/skills/claudecodetutor/`.
+
+Nunca instale as duas skills no mesmo projeto, salvo se você pedir explicitamente isso. Depois de instalar e reiniciar o app, use:
+
+```text
+iniciar tutor
+```
 
 ---
 

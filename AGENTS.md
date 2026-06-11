@@ -2,6 +2,16 @@
 
 Este repositório distribui tutores em formato de skill. A raiz do repositório não é uma skill instalável.
 
+## Regra crítica para o link raiz
+
+Se o usuário pedir apenas para instalar este repositório, colar `https://github.com/gabriel-riva/connectai-tutor-skills`, ou disser algo como "instala esse repo", instale exatamente uma skill, escolhida pelo ambiente atual.
+
+1. Se este agente estiver rodando no Codex, instale somente `codextutor/` em `.agents/skills/codextutor/`.
+2. Se este agente estiver rodando no Claude Code, instale somente `claudecodetutor/` em `.claude/skills/claudecodetutor/`.
+3. Se não conseguir identificar o ambiente, pergunte: "Você está instalando no Codex ou no Claude Code?"
+4. Nunca instale as duas skills no mesmo projeto, salvo se o usuário pedir explicitamente "instale as duas".
+5. Nunca instale a raiz do repositório nem a pasta `_comum/`.
+
 ## Quando o usuário pedir para instalar o CodexTutor
 
 Instale a subpasta `codextutor/` como skill de projeto do Codex, dentro da pasta atual da Oficina de Aprendizado.
