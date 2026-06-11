@@ -81,8 +81,8 @@ A aba Code é construída em torno de painéis que você pode organizar como qui
 | Atalho | Painel |
 |--------|--------|
 | Ctrl+` | Terminal integrado |
-| Cmd+Shift+D | Painel de diff |
-| Cmd+Shift+P | Painel de preview |
+| Ctrl+Shift+D | Painel de diff |
+| Ctrl+Shift+P | Painel de preview |
 | Ctrl+O | Alterna modos de visualização |
 
 ---
