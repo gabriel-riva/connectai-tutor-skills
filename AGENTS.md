@@ -4,12 +4,20 @@ Este repositório distribui tutores em formato de skill. A raiz do repositório 
 
 ## Quando o usuário pedir para instalar o CodexTutor
 
-Instale a subpasta `codextutor/` como skill do Codex.
+Instale a subpasta `codextutor/` como skill de projeto do Codex, dentro da pasta atual da Oficina de Aprendizado.
+
+Não instale em `$CODEX_HOME/skills`, `%USERPROFILE%\.codex\skills` nem `%USERPROFILE%\.agents\skills`. A skill deve ficar em:
+
+```text
+.agents/skills/codextutor/
+```
+
+Se a pasta atual não parecer uma oficina nova ou vazia, pergunte ao usuário antes de instalar.
 
 Use o instalador nativo de skills do Codex, equivalente a:
 
 ```text
-install-skill-from-github --repo gabriel-riva/connectai-tutor-skills --path codextutor
+install-skill-from-github --repo gabriel-riva/connectai-tutor-skills --path codextutor --dest .agents/skills
 ```
 
 Depois da instalação, diga ao usuário para reiniciar o Codex para garantir que a nova skill foi carregada. Em seguida, na pasta escolhida como Oficina de Aprendizado, ele deve escrever:
@@ -22,7 +30,15 @@ A própria skill cria `tutor/`, `missões/`, `cérebro/`, `tutor/AMBIENTE.md` e 
 
 ## Quando o usuário pedir para instalar o ClaudeCodeTutor
 
-Instale a subpasta `claudecodetutor/` como skill do Claude Code.
+Instale a subpasta `claudecodetutor/` como skill de projeto do Claude Code, dentro da pasta atual da Oficina de Aprendizado.
+
+Não instale em `%USERPROFILE%\.claude\skills`. A skill deve ficar em:
+
+```text
+.claude/skills/claudecodetutor/
+```
+
+Se a pasta atual não parecer uma oficina nova ou vazia, pergunte ao usuário antes de instalar.
 
 Depois da instalação, diga ao usuário para abrir a pasta escolhida como Oficina de Aprendizado e escrever:
 
