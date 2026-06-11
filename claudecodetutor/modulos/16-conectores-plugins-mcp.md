@@ -81,6 +81,8 @@ Isso não é desconfiança do agente, é proteção do aluno: se algum prompt sa
 
 Revise com o aluno os conectores que instalou: qual nível de permissão cada um recebeu? Há algum que poderia ter permissão mais restrita?
 
+> "Quando terminar a revisão, me manda um ok que eu anoto os conectores ativos no perfil."
+
 **Verificação:** aluno revisou as permissões dos conectores instalados e entende o princípio de acesso mínimo.
 
 ---

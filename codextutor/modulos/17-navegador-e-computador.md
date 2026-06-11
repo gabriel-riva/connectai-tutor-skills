@@ -6,9 +6,9 @@
 
 ## Conceito em 1 minuto
 
-Um agente que só trabalha com arquivos de texto tem um alcance limitado. Quando o trabalho precisa acontecer dentro de um sistema com interface visual, como um portal de fornecedor, um ERP sem API ou uma ferramenta de gestão da empresa, há duas alternativas: ou o agente usa o navegador para acessar o site, ou ele assume o controle do computador como se fosse você, clicando, digitando e navegando da mesma forma que um humano faria.
+Há sistemas no trabalho que nunca vão se conectar diretamente ao agente: portais de fornecedores com login próprio, ERPs que só funcionam no navegador, plataformas de cotação, sistemas legados da empresa. Para esses casos, o agente vai até onde o dado está, da mesma forma que você faria: abre o navegador, acessa o portal, lê o que precisa e traz o resultado.
 
-A escolha entre as camadas não é técnica: é prática. Use a mais simples que resolve o problema. A mais simples que resolve é sempre a melhor.
+Esse módulo cobre exatamente esse caso: o que fazer quando não há integração, plugin nem export disponível, e a tarefa precisa ser feita hoje.
 
 ---
 
@@ -28,21 +28,27 @@ Liste o que o aluno citou. Escolha o mais simples para o exercício: de preferê
 
 ---
 
-### Ato 2: entender as camadas disponíveis
+### Ato 2: identificar como o agente vai chegar até lá
 
-Mostre as camadas antes de usar qualquer uma. O conteúdo depende da plataforma:
+Antes de executar a tarefa, pergunte ao aluno sobre o sistema escolhido no Ato 1:
 
-> "No Codex, existem três camadas de alcance para o que está fora dos seus arquivos. A primeira é o navegador integrado (`$browser`): um painel dentro do app que renderiza páginas web. Acesse com `Ctrl+Shift+B`. Ele funciona bem para páginas públicas sem login, mas não suporta autenticação. A segunda é a extensão Chrome (`@chrome`): acessa o Chrome com o seu perfil de usuário, incluindo cookies e sessões ativas. Use para qualquer site onde você já está logado. A terceira é o controle do computador (`@computer`): o agente vê a tela e opera o computador como um humano faria, clicando e digitando em qualquer aplicativo com interface gráfica. Não precisa de API, não precisa de conector, funciona em qualquer app visível na tela.
+> "Esse sistema abre no navegador ou é um software instalado no computador?"
 
-No Windows, o app que o agente deve controlar precisa estar visível na área de trabalho durante a execução. Acesse em Configurações > Computer Use para ativar."
+Com a resposta, escolha o caminho certo para a missão e explique em uma frase:
 
-Mostre a tabela prática ao aluno:
-- Página pública sem login: use `$browser`
-- Site com login (Gmail, portal de fornecedor): use `@chrome` com a extensão instalada
-- Aplicativo desktop (ERP, Excel, qualquer software instalado): use `@computer`
+Se for site com login: "Vamos usar a extensão Chrome, que acessa o site com o seu perfil já logado. Ela precisa estar instalada: veja em Plugins no app se aparece o conector Chrome. Se não aparecer, instalamos agora."
+
+Se for aplicativo desktop: "Vamos usar o controle de computador, que é o agente vendo a tela e clicando como você faria. Para isso, o app precisa estar visível na área de trabalho durante a execução. Ative em Configurações > Computer Use antes de começar."
+
+Se for página pública sem login: "Para páginas públicas, o agente acessa diretamente pela navegação integrada, sem nenhuma configuração extra."
+
+Detalhes técnicos de bastidor (use para verificar antes de começar, não como aula para o aluno):
+- Página pública sem login: usa o navegador integrado (`$browser`)
+- Site com login: usa extensão Chrome (`@chrome`) com o perfil do aluno
+- Aplicativo desktop: usa controle de computador (`@computer`), precisa estar visível na tela
 
 
-**Verificação:** aluno entende as camadas disponíveis e quando usar cada uma.
+**Verificação:** caminho correto identificado e configuração necessária verificada antes de avançar para a execução.
 
 ---
 
@@ -61,19 +67,23 @@ Para aplicativos desktop: `"@computer, abra [nome do aplicativo] e acesse a tela
 Acompanhe a execução junto com o aluno. Para `@computer`, o aplicativo precisa estar visível na tela durante a tarefa.
 
 
+> "Quando terminar, me manda um ok que eu confiro o resultado direto."
+
 **Verificação:** tarefa executada, aluno conferiu o resultado.
 
 ---
 
-### Ato 4: quando GUI versus quando há caminho melhor
+### Ato 4: quando essa abordagem faz sentido
 
-Feche o módulo com a reflexão sobre quando usar versus quando evitar:
+Feche o módulo com a lógica de quando usar:
 
-> "Controle de GUI é poderoso, mas é a ferramenta mais lenta e mais frágil. Se o sistema tem um botão de export de relatório, usá-lo é melhor do que pedir ao agente para navegar e copiar linha a linha. Se há um plugin ou MCP disponível para o sistema, ele vai ser mais rápido e mais confiável do que GUI.
+> "O controle de interface visual é o que você usa quando não há caminho melhor disponível: o sistema não tem export útil, não tem plugin e a tarefa precisa ser feita agora. É mais lento e mais sensível a mudanças de tela do que uma integração direta. Mas funciona nos sistemas que o resto das ferramentas não alcança. A pergunta antes de usar: existe um botão de export, um plugin ou uma API? Se sim, use. Se não, essa abordagem é a certa."
 
-Pense no controle de GUI como a ferramenta que você usa quando não há outro caminho, não como a primeira escolha. O momento de usar: o sistema não tem API, não tem export útil, não tem plugin, e a tarefa precisa ser feita agora."
+Pergunte ao aluno:
 
-**Verificação:** aluno consegue nomear um caso em que usaria GUI versus um caso em que usaria uma camada mais simples.
+> "Pensando nos sistemas que você usa no dia a dia: qual deles seria candidato para esse tipo de acesso? E qual teria um caminho mais simples?"
+
+**Verificação:** aluno consegue nomear um caso em que usaria essa abordagem versus um caso em que há caminho mais simples disponível.
 
 ---
 

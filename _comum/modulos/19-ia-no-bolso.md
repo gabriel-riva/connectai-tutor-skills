@@ -3,13 +3,19 @@
 **Nível:** eletiva · **Pré:** 01, 02 · **Tempo típico:** 25 min  
 **Resultado:** o aluno entende quando faz sentido acompanhar, disparar ou revisar tarefas pelo celular, sem perder contexto nem controle.
 
+---
+
 ## Conceito em 1 minuto
 
-IA no bolso não é usar o celular para fazer tudo. É manter continuidade: uma ideia surge fora da mesa, uma tarefa precisa de revisão rápida, ou um acompanhamento precisa continuar enquanto o aluno está em reunião, fábrica, estrada ou loja.
+Usar o agente no celular não é fazer tudo pelo celular. É manter o fio de trabalho quando você está longe da mesa: uma ideia surge numa reunião, uma ocorrência aparece no chão de fábrica, um ajuste de rascunho é necessário numa visita. Sem o celular, o fio se perde. Com ele, a ideia entra pequena e chega estruturada quando você volta à bancada.
 
-Analogia de negócio: o desktop é a bancada de trabalho; o celular é o rádio de acompanhamento. Ele serve para orientar, revisar e decidir.
+Analogia de negócio: o desktop é a bancada de trabalho; o celular é o rádio de acompanhamento. Ele serve para capturar, orientar e decidir, não para produzir relatórios.
+
+---
 
 ## Missão guiada
+
+> Um ato de cada vez. Aguarde o aluno completar antes de passar ao próximo.
 
 ### Ato 1: escolher um caso móvel
 
@@ -36,7 +42,11 @@ Passe para a sessão de prática:
 
 > "Crie um modelo de mensagem curta para quando eu estiver longe do computador e quiser registrar uma ideia de trabalho. O modelo deve pedir: contexto, objetivo, prazo, pessoas envolvidas e primeiro próximo passo. Entregue em até 8 linhas."
 
-**Verificação:** o modelo cabe numa mensagem de celular.
+Quando o modelo estiver pronto:
+
+> "Me manda um ok que eu confiro o modelo direto na sessão de prática."
+
+**Verificação:** o modelo cabe numa mensagem de celular e o tutor conferiu na sessão.
 
 ### Ato 4: simular retomada no desktop
 
@@ -45,6 +55,8 @@ Peça ao aluno para colar uma ideia rápida usando o modelo. Depois, na sessão 
 Fala do tutor:
 
 > "O ganho não é responder pelo celular. É não perder o fio. A ideia entra pequena, e quando você volta para a bancada ela já tem forma."
+
+---
 
 ## Variações por função
 
@@ -57,9 +69,13 @@ Fala do tutor:
 | RH | Registrar insight de conversa interna para política ou comunicado |
 | Holding | Acompanhar tarefas de diferentes empresas sem abrir todos os sistemas |
 
+---
+
 ## Aprofundamento
 
 Conecte com o módulo 15 quando houver rotina recorrente. Uma tarefa em nuvem ou automação pode deixar um resumo pronto para revisão no celular, mas decisões sensíveis continuam exigindo confirmação humana.
+
+---
 
 ## Erros comuns e diagnóstico
 
@@ -71,6 +87,8 @@ Resposta: "Sem problema. Vamos criar o ritual de captura por mensagem ou arquivo
 
 **A mensagem de captura fica longa demais.**  
 Reduza para cinco campos: contexto, objetivo, prazo, pessoa e próximo passo.
+
+---
 
 ## Registro
 

@@ -18,15 +18,15 @@ O agente funciona da mesma forma. Sem contexto, cada sessão começa do zero: as
 
 ### Ato 1: o experimento A (sem contexto)
 
-Na sessão de prática, peça ao aluno que envie o prompt abaixo como está, sem adicionar nenhuma informação extra:
+Antes de começar, leia `tutor/PERFIL.md` para escolher a tarefa certa da tabela de variações. A tarefa do A/B precisa ter substância real: não "escreva um e-mail" genérico (isso qualquer chat já faz), mas uma situação concreta da área do aluno que mostre o que muda quando o agente conhece o contexto.
 
-> "Escreva um e-mail de follow-up para um cliente que pediu um orçamento há três dias e ainda não respondeu."
+Na sessão de prática, peça ao aluno que envie o prompt da coluna "Prompt do Ato 1 e 4" da tabela de variações abaixo, correspondente à área dele. Sem adicionar nenhuma informação extra.
 
 Quando o resultado aparecer, pause. Pergunte:
 
-> "Esse e-mail poderia ter sido escrito para qualquer empresa de qualquer setor, certo? Tem algo que seu cliente real reconheceria como vindo da [área/empresa do aluno]?"
+> "Esse resultado poderia ter saído para qualquer empresa de qualquer setor, certo? Tem algo que o seu destinatário real reconheceria como vindo da [área/empresa do aluno]? Falta o quê, especificamente?"
 
-Deixe o aluno responder. O objetivo é que ele próprio nomeie o que está faltando: nome da empresa, produto específico, tom de voz, urgência certa para o contexto dele.
+Deixe o aluno responder. O objetivo é que ele próprio nomeie o que está faltando: nome da empresa, produto específico, tom de voz, jargão interno, urgência certa para o contexto dele.
 
 **Verificação:** aluno identifica pelo menos dois elementos genéricos no resultado.
 
@@ -72,15 +72,21 @@ Após a aprovação do aluno, grave o conteúdo no cérebro em `cérebro/profiss
 
 ### Ato 4: o experimento B (com contexto)
 
-Na sessão de prática, peça ao aluno que repita o prompt do Ato 1 exatamente como estava:
+Na sessão de prática, peça ao aluno que repita exatamente o mesmo prompt do Ato 1, sem adicionar nenhuma informação extra. Diga:
 
-> "Escreva um e-mail de follow-up para um cliente que pediu um orçamento há três dias e ainda não respondeu."
+> "Quando o resultado aparecer, me manda um ok que eu confiro os dois resultados lado a lado direto na sessão de prática."
 
-Quando o resultado aparecer, coloque os dois lado a lado (o do Ato 1 e o do Ato 4) e pergunte:
+Ao receber o ok, compare os dois resultados. Depois pergunte ao aluno:
 
-> "O que mudou? O que você usaria de verdade agora que não usaria antes?"
+> "O que mudou? Tem alguma frase, dado ou tom que você usaria de verdade agora, mas não usaria antes?"
 
-Esse é o momento "percebeu?". Se o aluno estiver animado, aponte explicitamente: "Repara que você não precisou explicar nada sobre a empresa nesta segunda vez. O agente já sabia. É assim que ele deixa de ser genérico e passa a ser seu."
+Esse é o momento "percebeu?". Aponte explicitamente:
+
+> "Repara que você não precisou explicar nada sobre a empresa nesta segunda vez. O agente já sabia. A diferença entre o primeiro e o segundo resultado não está no que você pediu, está no que ele já tinha. É assim que o contexto transforma um agente genérico em parceiro da sua área."
+
+Conecte com o que vem a seguir:
+
+> "E esse arquivo que gravamos juntos, o `quem-sou.md`, vai estar lá amanhã, na próxima sessão e em todas as seguintes. Você escreve uma vez, colhe sempre. O próximo módulo vai mostrar onde essa memória mora e como você a edita."
 
 **Verificação:** aluno identifica a diferença concreta entre os dois resultados e articula por que o segundo está mais próximo do uso real.
 
@@ -101,16 +107,16 @@ A regra prática: contexto importante vive em arquivo (visível, editável, port
 
 ## Variações por função
 
-O par "tarefa sem contexto / tarefa com contexto" calibrado por área:
+O par "tarefa sem contexto / tarefa com contexto" calibrado por área. Cada prompt deve ter substância de área: situação real, destinatário real, decisão real. Não use prompts que qualquer chat já responde bem.
 
-| Área | Prompt do Ato 1 e 4 (idêntico nos dois atos) | O que o contexto muda |
+| Área | Prompt do Ato 1 e 4 (idêntico nos dois atos) | O que o contexto muda (e por que chat genérico não resolve) |
 |---|---|---|
-| Financeiro | "Escreva um resumo executivo do fechamento do mês para a diretoria." | Período, indicadores monitorados, tom formal ou técnico da empresa |
-| Comercial | "Escreva um e-mail de follow-up para um cliente que pediu um orçamento há três dias e ainda não respondeu." | Nome da empresa, produto/serviço, urgência adequada ao ciclo de vendas |
-| Operações | "Escreva um comunicado interno informando um atraso na entrega de um pedido." | Jargão interno, nível de formalidade, canal preferido da equipe |
-| Marketing | "Escreva uma legenda para um post no LinkedIn sobre um novo produto." | Tom de voz da marca, público-alvo, diferenciais do produto |
-| Engenharia | "Escreva uma descrição de tarefa para a equipe implementar uma nova funcionalidade." | Stack técnica, convenções de nomenclatura, critérios de aceitação padrão |
-| Holding/direção | "Escreva um sumário executivo com os pontos de atenção do mês para apresentar às áreas." | Estrutura de reporte, métricas priorizadas, tom para liderança sênior |
+| Financeiro | "Escreva um parágrafo de explicação para a diretoria sobre uma queda de margem este mês." | Sem contexto: explicação genérica sem os indicadores monitorados, sem o tom da empresa e sem nomear qual margem. Com contexto: usa os KPIs reais, o ciclo de fechamento e o nível de formalidade aprovado. |
+| Comercial | "Rascunhe a resposta para um cliente que pediu desconto de 15% numa proposta de equipamento industrial enviada há quatro dias." | Sem contexto: texto de desconto padrão sem produto específico, sem ciclo de vendas da área nem tom da empresa. Com contexto: menciona o produto, o prazo típico de decisão e o argumento de valor que a empresa usa. |
+| Operações | "Escreva um comunicado para a equipe explicando um atraso de dois dias numa entrega importante para um cliente." | Sem contexto: genérico, poderia ser de qualquer setor. Com contexto: usa o jargão interno, a cadência de comunicação e o canal preferido da equipe da empresa. |
+| Marketing | "Escreva um texto de apresentação de um novo produto para o site da empresa." | Sem contexto: tom neutro, sem os diferenciais da marca nem o público específico. Com contexto: usa o tom de voz definido, as expressões que a empresa evita e o público-alvo correto. |
+| Engenharia | "Escreva um relatório de encerramento de uma ordem de serviço de manutenção corretiva." | Sem contexto: formato genérico sem os critérios de aceitação, sem jargão técnico da área nem o destinatário correto. Com contexto: segue o padrão de registro da empresa e nomeia os indicadores monitorados. |
+| Holding/direção | "Prepare um sumário executivo com os pontos de atenção das empresas do grupo para a reunião de diretoria desta semana." | Sem contexto: estrutura genérica sem as métricas prioritárias do grupo nem o nível de detalhe esperado pela diretoria. Com contexto: reflete a estrutura de reporte, as empresas e os indicadores que a diretoria acompanha. |
 
 ---
 

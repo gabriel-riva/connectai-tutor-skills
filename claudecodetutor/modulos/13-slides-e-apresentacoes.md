@@ -61,6 +61,8 @@ Para fazer ajustes: descreva o que quer mudar diretamente no chat. Por exemplo: 
 
 Para exportar: o arquivo HTML já está na pasta da oficina. Ele abre em qualquer navegador como uma apresentação funcional. Se o aluno precisar de um arquivo PowerPoint, peça ao agente para gerar um HTML que simule o visual do PowerPoint, ou instrua o aluno a usar a opção "Importar do PowerPoint" se disponível no seu app de apresentação.
 
+> "Quando terminar os ajustes, me manda um ok que eu confiro os slides direto no arquivo."
+
 **Verificação:** slides visualizados no painel, aluno fez pelo menos um ajuste e o resultado final está salvo.
 
 ---

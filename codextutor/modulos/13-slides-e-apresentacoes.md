@@ -61,6 +61,8 @@ Para fazer ajustes visuais, use o modo de anotação: clique no elemento que que
 Para exportar como arquivo: peça ao agente para salvar o HTML na pasta `missões/`. O arquivo abre no navegador como uma apresentação funcional, sem precisar de software de apresentação instalado.
 
 
+> "Quando terminar os ajustes, me manda um ok que eu confiro os slides direto no arquivo."
+
 **Verificação:** slides visualizados no painel, aluno fez pelo menos um ajuste e o resultado final está salvo.
 
 ---

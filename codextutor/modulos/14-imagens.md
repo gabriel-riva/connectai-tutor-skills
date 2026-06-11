@@ -62,6 +62,8 @@ Para fechar o módulo, peça ao aluno para conectar o visual com uma necessidade
 
 Se for para uma apresentação, mostre como incluir o HTML ou imagem nos slides criados no módulo 13. Se for para um relatório, peça ao agente para embutir o visual diretamente no relatório. Se for para um e-mail, basta salvar como imagem e anexar.
 
+> "Quando terminar de conectar o visual ao destino final, me manda um ok que eu confiro."
+
 **Verificação:** aluno sabe onde e como usar o visual criado.
 
 ---

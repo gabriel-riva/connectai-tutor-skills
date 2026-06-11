@@ -1,56 +1,80 @@
 # Módulo: Orquestração
+**Nível:** eletiva avançada · **Pré:** 01, 02, pelo menos uma missão real · **Tempo típico:** 45 min
+**Resultado:** o aluno divide uma entrega real em frentes paralelas, cada uma com papel e critério claros, e entrega o resultado final consolidado em menos tempo do que faria em sequência.
 
-**Nível:** eletiva avançada · **Pré:** 01, 02, pelo menos uma missão real · **Tempo típico:** 45 min  
-**Resultado:** o aluno entende como dividir trabalho entre agentes, sessões ou threads, mantendo coordenação, evidência e revisão humana.
+---
 
 ## Conceito em 1 minuto
 
-Orquestrar é deixar de pedir "faça tudo" e passar a desenhar papéis. Um agente pesquisa, outro organiza dados, outro escreve, outro revisa. O valor não está em abrir muitas conversas, mas em coordenar entregas com critérios claros.
+Há um limite para o que um único pedido consegue entregar bem: quando o trabalho tem partes independentes que poderiam acontecer ao mesmo tempo, pedir tudo de uma vez gera resultado mediano em tudo. Dividir em frentes paralelas, cada uma com foco específico, gera resultado melhor em cada parte.
 
-Analogia de negócio: você não coloca cinco pessoas numa sala sem pauta. Você define papéis, prazo, formato de entrega e quem decide.
+A diferença não é técnica. É a mesma lógica de qualquer time: você não coloca todos fazendo tudo ao mesmo tempo sem pauta. Você define quem pesquisa, quem organiza, quem escreve e quem revisa. Cada um sabe o que entrega, em qual formato e para quem.
+
+---
 
 ## Missão guiada
 
-### Ato 1: escolher uma tarefa com partes independentes
+> Um ato de cada vez. Aguarde o aluno completar antes de passar ao próximo.
 
-Peça ao aluno uma tarefa real que tenha pelo menos três partes, por exemplo:
+### Ato 1: escolher a entrega real
 
-- preparar reunião com cliente
-- revisar relatório mensal
-- comparar fornecedores
-- montar plano de ação de uma não conformidade
-- transformar ideias de campanha em calendário
+Peça ao aluno uma entrega que ele precisaria fazer nos próximos dias e que tenha pelo menos duas partes independentes. Exemplos que funcionam:
 
-**Verificação:** cada parte pode ser feita sem depender completamente das outras.
+- preparar reunião com cliente (pesquisa sobre o cliente + preparação de pauta + levantamento de objeções prováveis)
+- revisar relatório mensal com contexto de mercado (análise dos dados internos + pesquisa de referências externas + versão executiva)
+- comparar fornecedores (pesquisa de mercado + análise de critérios da empresa + recomendação)
+- montar plano de ação de uma não conformidade (levantamento de causa raiz + plano de ação + checagem de riscos)
 
-### Ato 2: desenhar papéis
+Peça ao aluno para escolher. Se hesitar, use o exemplo da tabela de variações mais próximo da área dele.
 
-Crie uma tabela com:
+**Verificação:** entrega escolhida, aluno consegue nomear pelo menos duas partes que poderiam acontecer em paralelo.
 
-| Papel | O que entrega | Fonte | Critério de qualidade |
+### Ato 2: desenhar os papéis
+
+Antes de o aluno executar qualquer coisa, o tutor demonstra o conceito de papéis criando a estrutura. Isso serve como gabarito visual antes de o aluno tentar.
+
+Crie você mesmo uma thread chamada "Orquestração: [nome da tarefa do aluno]" neste projeto. Na thread, defina os papéis em tabela e mostre ao aluno como ficaria antes de ele criar as próprias. Depois de mostrar, oriente:
+
+> "Repara na estrutura: cada papel tem um papel específico, uma fonte diferente e um critério claro de entrega. Agora você vai criar as suas threads de trabalho com a mesma lógica."
+
+Modelo de tabela de papéis (adapte ao caso do aluno):
+
+| Papel | O que entrega | Fonte de informação | Critério de entrega pronto |
 |---|---|---|---|
-| Pesquisador | fatos e fontes | web, arquivos, mensagens | links e data |
-| Analista | padrões e riscos | dados ou relatório | critérios explícitos |
-| Redator | versão clara | síntese dos demais | tom aprovado |
-| Revisor | falhas e lacunas | entrega final | lista de ajustes |
+| Pesquisador | fatos, dados, fontes | web, arquivos, mensagens | lista com link e data de cada item |
+| Analista | padrões, riscos, comparações | dados ou pesquisa do papel anterior | critérios definidos explicitamente |
+| Redator | versão clara para o destinatário | síntese dos demais papéis | tom aprovado, sem jargão, sem promessa indevida |
+| Revisor | lacunas, inconsistências, ajustes | entrega do redator | lista numerada de ajustes |
 
-Adapte os papéis ao caso do aluno.
+**Verificação:** papéis definidos, aluno consegue explicar o que cada um entrega.
 
 ### Ato 3: executar em pequena escala
 
-No Codex, use subagentes quando a tarefa for técnica ou tiver pesquisa paralela. Para prática visual, o aluno pode usar threads separadas nomeadas por papel. Coordenação inter-thread só deve ser usada se estiver disponível no app atual; caso contrário, cada thread salva sua entrega em `missões/orquestracao/`.
+Na sessão de prática, passe a missão:
 
-Passe a missão:
+> "Divida a entrega '[nome da tarefa]' em dois papéis. Para cada papel, escreva: (1) o prompt que você usaria para aquele papel; (2) o nome do arquivo de saída esperado; (3) o critério que diz que aquele papel está pronto. Salve em `missões/orquestracao/00-plano.md`."
 
-> "Divida esta tarefa em três papéis. Para cada papel, escreva o prompt que eu devo usar, o arquivo de saída esperado e o critério de revisão. Não execute ainda."
+Após receber o plano, avalie: os prompts são distintos o suficiente? As fontes são diferentes? Faça um ajuste se necessário.
 
-**Verificação:** os prompts não se sobrepõem demais.
+Para a execução: o aluno cria threads separadas, cada uma nomeada pelo papel. Coordenação inter-thread só use se estiver disponível e confirmada no app atual. Caso contrário, cada thread salva a entrega em `missões/orquestracao/` e o aluno coordena manualmente.
+
+Agora execute um papel de verdade:
+
+> "Vamos rodar o primeiro papel agora. Abra uma [thread/sessão] nova chamada '[nome do papel 1]', cole o prompt desse papel e execute."
+
+> "Quando terminar o primeiro papel, me manda um ok que eu confiro a entrega antes de passar para o segundo."
+
+**Verificação:** pelo menos um papel executado, entrega salva em `missões/orquestracao/`, os prompts dos outros papéis não se sobrepõem ao que já foi feito.
 
 ### Ato 4: síntese
 
-Depois de uma ou duas entregas, peça:
+Com uma ou duas entregas em mão, passe a síntese:
 
-> "Leia as entregas dos papéis em `missões/orquestracao/`. Produza uma síntese executiva com decisões, riscos, dúvidas abertas e próximo passo recomendado."
+> "Leia os arquivos em `missões/orquestracao/`. Produza uma síntese executiva de uma página com: decisões que já estão claras, riscos identificados, dúvidas ainda abertas e o próximo passo recomendado. Cite qual arquivo sustenta cada ponto."
+
+> "Quando terminar, me manda um ok que eu confiro a síntese."
+
+---
 
 ## Variações por função
 
@@ -63,9 +87,15 @@ Depois de uma ou duas entregas, peça:
 | RH | Agente de benchmark, agente de política, agente de perguntas frequentes |
 | Holding | Agentes por empresa ou por indicador, com síntese única no final |
 
+---
+
 ## Aprofundamento
 
 Quando a orquestração funcionar bem, transforme o fluxo em skill no módulo 99. O sinal de maturidade é quando o aluno consegue dizer: "sempre que eu fizer este trabalho, estes são os papéis, arquivos e critérios".
+
+Nota sobre disponibilidade: coordenação direta entre threads ou sessões (um agente lendo o resultado de outro automaticamente) depende da versão do app. Verifique em `referencia/remoto-orquestracao.md` o que está disponível no ambiente do aluno antes de prometer esse comportamento. O fluxo com arquivos em `missões/orquestracao/` funciona em qualquer versão e já entrega o resultado esperado.
+
+---
 
 ## Erros comuns e diagnóstico
 
@@ -80,6 +110,8 @@ Peça para citar qual arquivo sustenta cada conclusão.
 
 **O aluno perde arquivos.**  
 Padronize nomes: `01-pesquisa.md`, `02-analise.md`, `03-rascunho.md`, `04-sintese.md`.
+
+---
 
 ## Registro
 

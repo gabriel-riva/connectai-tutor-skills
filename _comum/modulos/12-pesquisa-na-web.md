@@ -1,12 +1,14 @@
 # Módulo: Pesquisa na web
 **Nível:** eletiva · **Pré:** 01, 02 · **Tempo típico:** 25-35 min
-**Resultado:** o aluno conduz uma pesquisa real de mercado, fornecedores, preços ou normas com fontes citadas e resultado em tabela, e sabe qual camada de acesso usar dependendo do que precisa acessar.
+**Resultado:** o aluno conduz uma pesquisa real de mercado, fornecedores, preços ou normas com fontes citadas e resultado em tabela comparativa, e cria um modelo de monitoramento de tema para repetir sem esforço manual.
 
 ---
 
 ## Conceito em 1 minuto
 
-Pesquisa na web sem o agente funciona como busca manual em várias abas ao mesmo tempo: você abre, lê, guarda o que importa, fecha, abre outra. O agente faz a mesma coisa, mas em paralelo e sem perder o fio. A diferença prática é que você termina com uma síntese organizada, com as fontes anotadas, em vez de vinte abas abertas que você vai fechar sem ler.
+No primeiro módulo você viu o agente fazer uma pesquisa com fontes rodando alguns minutos sozinha. Aqui você aprofunda isso: aprende a construir comparativos que apoiam decisões reais, a verificar o que chegou e a transformar pesquisa pontual em monitoramento de tema.
+
+A diferença entre pesquisa manual e pesquisa com agente não está na velocidade, está no que você consegue fazer com o resultado: em vez de vinte abas para fechar, você recebe uma tabela com fontes anotadas, pronta para levar a uma reunião ou usar numa decisão de compra.
 
 A regra de ouro de qualquer pesquisa assistida: fontes importam. Peça sempre a origem de cada afirmação. Informação sem fonte é rascunho, não pesquisa.
 
@@ -44,29 +46,29 @@ O objetivo é que o aluno entenda que a pesquisa é um ponto de partida para ver
 
 ---
 
-### Ato 3: onde a navegação acontece (camadas de acesso)
+### Ato 3: monitorar um tema ao longo do tempo
 
-Após a pesquisa, explique as camadas disponíveis para o aluno e quando usar cada uma. O conteúdo depende da plataforma:
+A pesquisa pontual já está feita. Agora avance para o diferencial que o módulo 01 plantou como promessa: o agente pode repetir uma pesquisa em datas definidas e entregar as novidades sem você precisar pedir de novo.
+
+Na sessão de prática, passe o modelo adaptado ao tema que o aluno escolheu no Ato 1:
+
+> "Pesquise [tema] com foco em [objetivo]. Para cada novidade dos últimos 30 dias, cite a fonte com nome do site e URL. Organize em tabela: [Item], [Novidade], [Fonte], [Data]. No final, liste em uma linha o que mudou desde a última vez que esse assunto foi pesquisado. Salve o resultado como `monitoramento-[tema]-AAAA-MM-DD.md` na pasta missões/."
+
+Após o resultado, mostre que esse mesmo prompt pode virar a base de uma automação agendada (módulo 15): o agente roda sozinho na frequência que o aluno quiser e entrega o resumo de novidades. Por enquanto, salve o prompt em `missões/` como modelo reutilizável.
+
+> "Quando terminar, me manda um ok que eu confiro o arquivo direto."
+
+**Nota de bastidor (não compartilhar com o aluno como "aula"):** quando a pesquisa precisar entrar em portais com login, o caminho muda dependendo da plataforma:
 
 <!-- @codex -->
-> "Dependendo do que você precisa acessar, o agente usa camadas diferentes. Para páginas públicas sem login, ele usa o navegador integrado ($browser), acessado com `Ctrl+Shift+B`. Para sites onde você já está logado, como portais de fornecedores com senha ou ferramentas da empresa, ele usa a extensão Chrome (@chrome), que acessa com o seu perfil de usuário. Deixa eu te mostrar a diferença."
-
-Abra o navegador integrado com `Ctrl+Shift+B` e mostre uma página pública. Então explique:
-
-> "Para um portal de fornecedor onde você já tem conta, ou uma ferramenta interna com login, a extensão Chrome (@chrome) seria o caminho certo. Ela acessa com o seu perfil, incluindo os cookies de sessão. Para usar: no prompt, mencione '@Chrome' e o nome do site."
-
-Confirme se o aluno tem a extensão Chrome instalada (ver `Plugins` no app). Se não tiver, marque para instalar numa próxima sessão.
+Use `@chrome` no prompt para acessar o Chrome com o perfil do aluno (sessões ativas incluídas). O navegador integrado (`$browser`) serve apenas para páginas públicas. Só mencione isso se o aluno perguntar ou se a tarefa exigir portal autenticado.
 <!-- @/codex -->
 
 <!-- @claude -->
-> "Dependendo do que você precisa acessar, o agente usa ferramentas diferentes. Para pesquisa de páginas públicas, ele usa a navegação pela web integrada ao app. Para sites onde você já está logado, como portais de fornecedores ou ferramentas internas com senha, a extensão 'Claude in Chrome' é o caminho: ela acessa o Chrome com o seu perfil, incluindo as sessões ativas."
-
-Explique os requisitos da extensão Claude in Chrome: precisa do Google Chrome ou Microsoft Edge (não funciona no Brave ou Arc), extensão versão 1.0.36 ou superior, e plano Pro, Max, Team ou Enterprise. Confirme se o aluno tem os pré-requisitos.
-
-Se tiver, mostre como usar: "No chat, descreva o que você quer fazer no site. Por exemplo: 'Vá ao portal [nome] e me traga os preços atuais da lista de produtos.' O agente acessa o Chrome com o seu perfil logado."
+Use a extensão Claude in Chrome para portais com login (requer Chrome ou Edge, versão 1.0.36+, plano Pro/Max/Team/Enterprise). Pesquisa pública usa a navegação integrada. Só mencione isso se o aluno perguntar ou se a tarefa exigir portal autenticado.
 <!-- @/claude -->
 
-**Verificação:** aluno entende a diferença entre pesquisa em páginas públicas e acesso a sites autenticados.
+**Verificação:** arquivo de monitoramento salvo, aluno entende que o mesmo prompt pode ser repetido automaticamente.
 
 ---
 
@@ -77,6 +79,8 @@ Com a pesquisa feita, finalize gerando um comparativo estruturado para uso real.
 > "Com base na pesquisa que fizemos, crie uma tabela comparativa de [fornecedores / opções / normas] com as colunas mais relevantes para uma decisão. Inclua na última linha uma recomendação de qual opção você avaliaria primeiro e por quê, com base apenas nas informações encontradas."
 
 Salve o resultado na pasta `missões/` com a data.
+
+> "Quando terminar, me manda um ok que eu confiro o comparativo direto na pasta."
 
 **Verificação:** comparativo salvo, pronto para uso em uma reunião ou decisão real.
 
@@ -97,7 +101,7 @@ Salve o resultado na pasta `missões/` com a data.
 
 ## Aprofundamento
 
-Para pesquisas que precisam de dados por trás de um login (portal de fornecedor, sistema de cotações, extranet de cliente), a extensão Chrome é o caminho natural para quem já tem a conta ativa. Mas há um cuidado importante: sites que exigem login têm termos de uso. Alguns permitem automação, outros não. O aluno deve verificar os termos antes de automatizar qualquer coisa em portais de terceiros.
+Para pesquisas que precisam de dados por trás de um login (portal de fornecedor, sistema de cotações, extranet de cliente), o acesso autenticado ao navegador é o caminho, conforme descrito no módulo 17. Há um cuidado importante: sites que exigem login têm termos de uso. Alguns permitem automação, outros não. O aluno deve verificar os termos antes de automatizar qualquer coisa em portais de terceiros.
 
 Para pesquisas recorrentes (cotação semanal de insumos, por exemplo), o módulo 15 sobre automações mostra como transformar uma pesquisa manual em rotina agendada.
 

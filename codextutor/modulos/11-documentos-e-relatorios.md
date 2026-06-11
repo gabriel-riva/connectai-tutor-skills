@@ -68,6 +68,8 @@ Após o resultado, compare com um relatório antigo:
 
 > "Compara com o que você produzia antes. O tempo que você levaria para escrever isso do zero versus o tempo que levou agora: qual é a diferença?"
 
+> "Quando terminar de revisar, me manda um ok que eu confiro o relatório direto na pasta."
+
 **Verificação:** primeiro relatório gerado com o modelo, revisado e salvo.
 
 ---
@@ -87,7 +89,7 @@ Após o resultado, compare com um relatório antigo:
 
 ## Aprofundamento
 
-Para quem quiser ir além: o modelo de relatório criado neste módulo é o embrião de uma skill. Quando o aluno estiver usando o mesmo prompt toda semana para preencher o modelo, chegou a hora de transformá-lo em uma skill no app, para que bastue um comando rápido para iniciar o processo.
+Para quem quiser ir além: o modelo de relatório criado neste módulo é o embrião de uma skill. Quando o aluno estiver usando o mesmo prompt toda semana para preencher o modelo, chegou a hora de transformá-lo em uma skill no app, para que baste um comando rápido para iniciar o processo.
 
 Além disso, o relatório gerado pode alimentar diretamente o cérebro: a seção de indicadores do relatório vai para `departamento/indicadores.md`, as seções de processo vão para `departamento/processos.md`. O tutor propõe o registro após cada geração bem-sucedida.
 

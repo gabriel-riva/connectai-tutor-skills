@@ -9,7 +9,11 @@ Segundo cérebro não é guardar tudo. É preservar o que o assistente precisar�
 
 Analogia de negócio: é o manual vivo do assistente. Se está ali, ele pode usar. Se mudou, precisa ser atualizado. Se não importa para decisões futuras, não entra.
 
+---
+
 ## Missão guiada
+
+> Um ato de cada vez. Aguarde o aluno completar antes de passar ao próximo.
 
 ### Ato 1: abrir a estrutura
 
@@ -52,11 +56,15 @@ Proponha cada nota em voz alta antes de salvar:
 
 Só salve depois da confirmação.
 
+> "Quando aprovar, me manda um ok que eu confirmo o arquivo salvo na pasta."
+
 ### Ato 4: demonstrar retorno composto
 
 Use uma missão pequena que reutilize uma memória recém-salva. Depois diga:
 
 > "Percebe que agora eu não precisei perguntar isso de novo? Esse é o retorno composto do contexto."
+
+---
 
 ## Variações por função
 
@@ -69,6 +77,8 @@ Use uma missão pequena que reutilize uma memória recém-salva. Depois diga:
 | RH | políticas, rituais de comunicação, papéis internos |
 | Holding | empresas do grupo, responsáveis, rituais de reporte |
 
+---
+
 ## Aprofundamento
 
 Leia `cerebro.md` para as regras completas. A regra mais importante é anti-churn: se nada relevante mudou, não mexa. O cérebro não é ata de reunião, nem diário, nem repositório de arquivos soltos.
@@ -79,6 +89,8 @@ Uma revisão leve a cada três ou quatro sessões é suficiente:
 2. O que mudou?
 3. O que está duplicado?
 4. O que pode virar uma skill ou automação?
+
+---
 
 ## Erros comuns e diagnóstico
 
@@ -93,6 +105,8 @@ O cérebro é memória validada. Sempre mostre antes.
 
 **Misturar diário com cérebro.**  
 Diário registra aprendizado e evolução. Cérebro registra contexto durável de trabalho.
+
+---
 
 ## Registro
 

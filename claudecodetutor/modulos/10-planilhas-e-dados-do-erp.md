@@ -72,7 +72,9 @@ Após o resultado, peça ao aluno para revisar:
 
 > "Leia o relatório como se você fosse o destinatário. Tem algo que faltou? Tem algo que precisaria ser mais específico?"
 
-Faça um ajuste junto com o aluno baseado no feedback dele.
+Faça um ajuste junto com o aluno baseado no feedback dele. Ao final:
+
+> "Quando terminar de revisar, me manda um ok que eu confiro o relatório direto na pasta, sem você precisar contar nada."
 
 **Verificação:** relatório pronto, revisado pelo aluno e salvo na pasta `missões/`.
 

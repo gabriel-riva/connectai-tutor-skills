@@ -110,6 +110,8 @@ Pergunte:
 
 Se precisar de ajuste (cor errada, logo não apareceu, tom muito formal), refine na mesma sessão até ficar próximo do aceitável. Perfeição não é o objetivo aqui; é mostrar que é possível.
 
+> "Quando terminar os ajustes, me manda um ok que eu confiro o artefato direto na pasta missões/ e verifico se as cores e o tom estão corretos."
+
 **Verificação:** artefato gerado com elementos visuais da empresa visíveis. Aluno reconhece a identidade.
 
 ---
@@ -230,6 +232,8 @@ Fala pronta do tutor ao ver o resultado:
 > Agora me diz: que outras partes da sua rotina mereceriam virar skill assim?"
 
 Deixe o aluno responder. Anote as duas ou três ideias que surgirem no diário (elas vão para o registro no final).
+
+> "Quando terminar o teste com o material novo, me manda um ok que eu confiro o resultado direto na pasta."
 
 **Verificação:** skill funcionou em material diferente. Aluno nomeou pelo menos uma ideia de próxima skill.
 

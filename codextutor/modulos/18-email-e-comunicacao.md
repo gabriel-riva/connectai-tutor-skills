@@ -3,13 +3,19 @@
 **Nível:** eletiva · **Pré:** 01, 02 · **Tempo típico:** 35 min  
 **Resultado:** o aluno transforma mensagens soltas em triagem, rascunhos e preparação de conversa, mantendo o humano no controle antes de enviar qualquer coisa.
 
+---
+
 ## Conceito em 1 minuto
 
-E-mail, agenda e mensagens são fluxo de trabalho, não só comunicação. O agente ajuda quando recebe três coisas: objetivo, contexto e critério de decisão. O tutor deve ensinar o aluno a pedir rascunhos e sínteses, nunca delegar envio automático sem revisão humana.
+E-mail, agenda e mensagens são fluxo de trabalho, não só comunicação. O agente ajuda quando recebe três coisas: objetivo, contexto e critério de decisão. O resultado prático: a triagem já está feita e o rascunho está na mesa quando você precisar. A assinatura continua sendo do aluno.
 
-Analogia de negócio: o agente é um assistente que separa a mesa, marca o que é urgente e prepara o rascunho. A assinatura continua sendo do aluno.
+Analogia de negócio: o agente é um assistente que separa a mesa, marca o que é urgente e prepara o rascunho. O que ele nunca faz: assinar e enviar por você.
+
+---
 
 ## Missão guiada
+
+> Um ato de cada vez. Só avance quando o aluno confirmar que terminou.
 
 ### Ato 1: escolher uma caixa segura
 
@@ -31,7 +37,7 @@ Passe a missão para a sessão de prática:
 
 > "Analise estas mensagens. Separe em quatro grupos: ação minha, aguardando terceiros, informação apenas e possível risco. Para cada item, escreva uma linha com assunto, motivo da classificação, próxima ação sugerida e prazo se houver. Não envie nada."
 
-**Verificação:** tabela gerada e revisada pelo aluno.
+**Verificação:** tabela gerada e revisada pelo aluno. Quando terminar, o aluno manda um ok e o tutor confere os grupos criados.
 
 ### Ato 4: rascunho com voz do aluno
 
@@ -41,9 +47,13 @@ Escolha um item de ação e peça:
 
 Revise com o aluno: o tom parece dele? Falta contexto? Há promessa indevida?
 
+> "Quando terminar a revisão do rascunho, me manda um ok que eu confiro o texto antes de qualquer envio."
+
 ### Ato 5: registrar padrão útil
 
 Se o aluno gostou do tom, proponha salvar um padrão em `cérebro/pessoal/tom-de-comunicacao.md` ou `cérebro/departamento/comunicacao.md`.
+
+---
 
 ## Variações por função
 
@@ -56,9 +66,13 @@ Se o aluno gostou do tom, proponha salvar um padrão em `cérebro/pessoal/tom-de
 | RH | Organizar dúvidas recorrentes de colaboradores sem expor dados sensíveis |
 | Holding | Preparar briefing executivo a partir de mensagens de diferentes empresas |
 
+---
+
 ## Aprofundamento
 
-Quando o aluno dominar a triagem manual, conecte com o módulo 15: uma automação pode verificar mensagens periodicamente e rascunhar respostas, mas nunca enviar sozinha. O padrão seguro é "ler, priorizar, pesquisar contexto e rascunhar".
+Quando o aluno dominar a triagem manual, conecte com o módulo 15: uma automação pode verificar mensagens periodicamente e rascunhar respostas, mas nunca enviar sozinha. O padrão seguro é: ler, priorizar, pesquisar contexto e rascunhar.
+
+---
 
 ## Erros comuns e diagnóstico
 
@@ -73,6 +87,8 @@ Crie ou atualize `cérebro/pessoal/tom-de-comunicacao.md` com exemplos aprovados
 
 **O aluno quer conectar tudo de uma vez.**  
 Volte para acesso mínimo: uma conta, uma pasta, um período curto, um objetivo.
+
+---
 
 ## Registro
 
