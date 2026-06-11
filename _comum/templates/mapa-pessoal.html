@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mapa Pessoal de {{NOME_DO_ALUNO}}</title>
+<style>
+:root{
+  --acento:#2563EB; --acento-suave:#DBEAFE; --fundo:#FFFFFF; --texto:#111827;
+  --suave:#6B7280; --card:#F9FAFB; --borda:#E5E7EB; --ok:#16A34A; --pendente:#D1D5DB;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,sans-serif;background:var(--fundo);color:var(--texto);
+     line-height:1.55;padding:40px;max-width:1040px;margin:0 auto}
+h1{font-size:30px;margin-bottom:6px}
+h2{font-size:20px;margin:28px 0 12px}
+.sub{color:var(--suave);margin-bottom:24px}
+
+/* Cabeçalho de identificação */
+.id-bar{display:flex;gap:20px;flex-wrap:wrap;margin-bottom:28px;padding:14px 18px;
+        background:var(--card);border:1px solid var(--borda);border-radius:10px;
+        font-size:14px;color:var(--suave)}
+.id-bar span{font-weight:600;color:var(--texto)}
+
+/* Tabela estilizada */
+.mapa-tabela{width:100%;border-collapse:collapse;font-size:14px;margin-top:4px}
+.mapa-tabela thead tr{background:var(--acento);color:#fff}
+.mapa-tabela thead th{padding:12px 16px;text-align:left;font-weight:600;font-size:13px}
+.mapa-tabela thead th:first-child{border-radius:8px 0 0 0}
+.mapa-tabela thead th:last-child{border-radius:0 8px 0 0}
+.mapa-tabela tbody tr{border-bottom:1px solid var(--borda);transition:background 0.15s}
+.mapa-tabela tbody tr:hover{background:var(--acento-suave)}
+.mapa-tabela tbody tr:last-child{border-bottom:none}
+.mapa-tabela td{padding:13px 16px;vertical-align:top;color:var(--texto)}
+.mapa-tabela td:first-child{font-weight:600;color:#1e3a5f;width:26%}
+.ganho{display:inline-block;background:#DCFCE7;color:#15803D;border-radius:999px;
+       padding:2px 10px;font-size:12px;font-weight:600}
+.modulo-ref{display:inline-block;background:var(--acento-suave);color:var(--acento);
+            border-radius:999px;padding:2px 10px;font-size:12px;font-weight:600}
+
+/* Rodapé de nota */
+.nota{font-size:13px;color:var(--suave);margin-top:20px;padding:12px 16px;
+      background:var(--card);border:1px solid var(--borda);border-radius:8px}
+</style>
+</head>
+<body>
+
+<h1>Mapa Pessoal: Rotina × Agente</h1>
+
+<div class="id-bar">
+  <div>Aluno: <span>{{NOME_DO_ALUNO}}</span></div>
+  <div>Função: <span>{{FUNCAO}}</span></div>
+  <div>Atualizado em: <span>{{DATA}}</span></div>
+</div>
+
+<h2>Como o agente se encaixa na sua rotina</h2>
+
+<table class="mapa-tabela">
+  <thead>
+    <tr>
+      <th>Atividade da rotina</th>
+      <th>Como fazer com o agente</th>
+      <th>Ganho estimado</th>
+      <th>Módulo da trilha</th>
+    </tr>
+  </thead>
+  <tbody>
+
+    {{LINHAS_DA_TABELA}}
+
+  </tbody>
+</table>
+
+<p class="nota">Este mapa é um ponto de partida. À medida que a trilha avança, novas atividades podem ser adicionadas aqui.</p>
+
+<!--
+=== EXEMPLO DE USO (apague ou mantenha comentado ao entregar) ===
+
+    <tr>
+      <td>Elaborar relatório semanal</td>
+      <td>Descrever os números ao agente e pedir um resumo executivo com pontos de atenção</td>
+      <td><span class="ganho">~40 min/semana</span></td>
+      <td><span class="modulo-ref">Fundamentos de Prompts</span></td>
+    </tr>
+
+    <tr>
+      <td>Responder e-mails de fornecedores</td>
+      <td>Usar o agente para rascunhar respostas padronizadas a partir de um modelo base</td>
+      <td><span class="ganho">~25 min/semana</span></td>
+      <td><span class="modulo-ref">Comunicação Profissional</span></td>
+    </tr>
+
+=== FIM DO EXEMPLO ===
+-->
+
+</body>
+</html>

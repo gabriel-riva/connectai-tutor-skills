@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cola de {{NOME_DO_ALUNO}}</title>
+<style>
+:root{
+  --acento:#2563EB; --acento-suave:#DBEAFE; --fundo:#FFFFFF; --texto:#111827;
+  --suave:#6B7280; --card:#F9FAFB; --borda:#E5E7EB; --ok:#16A34A; --pendente:#D1D5DB;
+  --code-fundo:#F3F4F6; --code-borda:#D1D5DB;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,sans-serif;background:var(--fundo);color:var(--texto);
+     line-height:1.55;padding:40px;max-width:960px;margin:0 auto}
+h1{font-size:30px;margin-bottom:6px}
+h2{font-size:18px;margin:32px 0 12px;color:var(--acento);border-bottom:2px solid var(--acento-suave);
+   padding-bottom:6px}
+.sub{color:var(--suave);margin-bottom:24px}
+.tag{display:inline-block;background:var(--acento-suave);color:var(--acento);border-radius:999px;
+     padding:2px 12px;font-size:12px;font-weight:600;margin-right:6px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:14px;margin-bottom:8px}
+
+/* Cards de prompt */
+.prompt-card{background:var(--card);border:1px solid var(--borda);border-radius:10px;
+             padding:18px;display:flex;flex-direction:column;gap:10px}
+.prompt-titulo{font-weight:700;font-size:15px}
+.prompt-code{background:var(--code-fundo);border:1px solid var(--code-borda);border-radius:7px;
+             padding:12px;font-family:'Consolas','Courier New',monospace;font-size:13px;
+             white-space:pre-wrap;word-break:break-word;color:#1e293b;line-height:1.6}
+.prompt-code strong{background:#FEF9C3;color:#92400E;border-radius:3px;padding:0 3px}
+.prompt-dica{font-size:13px;color:var(--suave);border-left:3px solid var(--acento-suave);
+             padding-left:10px}
+
+/* Cabeçalho de identificação */
+.id-bar{display:flex;gap:20px;flex-wrap:wrap;margin-bottom:28px;padding:14px 18px;
+        background:var(--card);border:1px solid var(--borda);border-radius:10px;
+        font-size:14px;color:var(--suave)}
+.id-bar span{font-weight:600;color:var(--texto)}
+</style>
+</head>
+<body>
+
+<h1>Cola Pessoal de Prompts</h1>
+
+<div class="id-bar">
+  <div>Aluno: <span>{{NOME_DO_ALUNO}}</span></div>
+  <div>Função: <span>{{FUNCAO}}</span></div>
+  <div>Atualizado em: <span>{{DATA}}</span></div>
+</div>
+
+{{CATEGORIAS_E_CARDS}}
+
+<!--
+=== EXEMPLO DE USO (apague ou mantenha comentado ao entregar) ===
+
+<h2>Análise de Dados</h2>
+<div class="grid">
+
+  <div class="prompt-card">
+    <div class="prompt-titulo">Resumir planilha</div>
+    <div class="prompt-code">Analise a planilha abaixo e me dê:
+- Os 3 principais destaques
+- O que merece atenção imediata
+- Uma recomendação para <strong>{{PERÍODO OU ÁREA}}</strong>
+
+Contexto: trabalho em <strong>{{SETOR DA EMPRESA}}</strong>.
+
+[cole os dados aqui]</div>
+    <div class="prompt-dica">Dica: quanto mais contexto você der sobre o período e o setor, mais útil será a análise.</div>
+  </div>
+
+  <div class="prompt-card">
+    <div class="prompt-titulo">Identificar inconsistências</div>
+    <div class="prompt-code">Revise estes dados e aponte:
+- Valores fora do padrão
+- Campos em branco relevantes
+- Possíveis erros de digitação
+
+Área analisada: <strong>{{NOME DA ÁREA OU RELATÓRIO}}</strong>
+
+[cole os dados aqui]</div>
+    <div class="prompt-dica">Dica: peça sempre que o agente liste as inconsistências numeradas para facilitar a revisão.</div>
+  </div>
+
+</div>
+
+=== FIM DO EXEMPLO ===
+-->
+
+</body>
+</html>

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Trilha de {{NOME_DO_ALUNO}}</title>
+<style>
+:root{
+  --acento:#2563EB; --acento-suave:#DBEAFE; --fundo:#FFFFFF; --texto:#111827;
+  --suave:#6B7280; --card:#F9FAFB; --borda:#E5E7EB; --ok:#16A34A; --pendente:#D1D5DB;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,sans-serif;background:var(--fundo);color:var(--texto);
+     line-height:1.55;padding:40px;max-width:960px;margin:0 auto}
+h1{font-size:30px;margin-bottom:6px}
+h2{font-size:20px;margin:28px 0 12px}
+.sub{color:var(--suave);margin-bottom:24px}
+.card{background:var(--card);border:1px solid var(--borda);border-radius:10px;padding:18px;margin:10px 0}
+.tag{display:inline-block;background:var(--acento-suave);color:var(--acento);border-radius:999px;
+     padding:2px 12px;font-size:12px;font-weight:600;margin-right:6px}
+.done{color:var(--ok)}
+.todo{color:var(--pendente)}
+
+/* Barra de progresso */
+.progresso-wrap{background:var(--borda);border-radius:999px;height:14px;margin:16px 0 8px;overflow:hidden}
+.progresso-barra{background:var(--acento);height:100%;border-radius:999px;transition:width 0.4s}
+.progresso-label{font-size:13px;color:var(--suave);margin-bottom:24px}
+
+/* Cards de módulo */
+.modulo-card{border:1px solid var(--borda);border-radius:10px;padding:18px;margin:10px 0;
+             background:var(--card);display:flex;gap:14px;align-items:flex-start}
+.modulo-card.atual{border-color:var(--acento);background:#EFF6FF;box-shadow:0 0 0 2px var(--acento-suave)}
+.modulo-card.concluido{opacity:0.85}
+.modulo-card.futuro{opacity:0.6}
+.modulo-icone{font-size:22px;min-width:28px;text-align:center;margin-top:2px}
+.modulo-corpo{flex:1}
+.modulo-nome{font-weight:700;font-size:16px;margin-bottom:4px}
+.modulo-resultado{font-size:14px;color:var(--suave);margin-bottom:6px}
+.modulo-meta{font-size:12px;color:var(--suave)}
+.selo-atual{display:inline-block;background:var(--acento);color:#fff;border-radius:999px;
+            padding:2px 10px;font-size:11px;font-weight:700;margin-left:8px;vertical-align:middle}
+</style>
+</head>
+<body>
+
+<h1>Trilha de Aprendizado</h1>
+<p class="sub">{{NOME_DO_ALUNO}} · {{DATA}}</p>
+
+<h2>Progresso geral</h2>
+<div class="progresso-wrap">
+  <div class="progresso-barra" style="width:{{PCT}}%"></div>
+</div>
+<p class="progresso-label">{{PCT}}% concluído</p>
+
+<h2>Módulos</h2>
+
+{{MODULOS}}
+
+<!--
+=== EXEMPLO DE USO (apague ou mantenha comentado ao entregar) ===
+
+<!-- Módulo concluído: -->
+<div class="modulo-card concluido">
+  <div class="modulo-icone">✅</div>
+  <div class="modulo-corpo">
+    <div class="modulo-nome">Fundamentos de Prompts</div>
+    <div class="modulo-resultado">Criou 3 prompts para relatórios semanais</div>
+    <div class="modulo-meta">⏱ 45 min · concluído</div>
+  </div>
+</div>
+
+<!-- Módulo atual (destacado): -->
+<div class="modulo-card atual">
+  <div class="modulo-icone">▶️</div>
+  <div class="modulo-corpo">
+    <div class="modulo-nome">
+      Análise de Planilhas
+      <span class="selo-atual">você está aqui</span>
+    </div>
+    <div class="modulo-resultado">Aprendendo a interpretar planilhas com o agente</div>
+    <div class="modulo-meta">⏱ 60 min · em andamento</div>
+  </div>
+</div>
+
+<!-- Módulo futuro: -->
+<div class="modulo-card futuro">
+  <div class="modulo-icone">⬜</div>
+  <div class="modulo-corpo">
+    <div class="modulo-nome">Automações de Rotina</div>
+    <div class="modulo-resultado">A definir após o módulo atual</div>
+    <div class="modulo-meta">⏱ 50 min · não iniciado</div>
+  </div>
+</div>
+
+=== FIM DO EXEMPLO ===
+-->
+
+</body>
+</html>
