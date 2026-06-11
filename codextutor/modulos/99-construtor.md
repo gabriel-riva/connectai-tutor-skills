@@ -207,7 +207,7 @@ Se a skill pular etapas ou aplicar a identidade de forma incorreta na primeira v
 
 ---
 
-**Verificação:** pasta da skill criada com o SKILL.md escrito e salvo. Aluno consegue ver a skill no compositor da plataforma.
+**Verificação:** pasta da skill criada com o SKILL.md escrito e salvo. Aluno consegue ver a skill no campo de mensagem da plataforma.
 
 ---
 
@@ -276,7 +276,7 @@ Fontes úteis para procurar referências:
 |---|---|
 | `https://github.com/coreyhaines31/marketingskills` | Marketing, comunicação, CRO, SEO, copywriting, anúncios e growth |
 | `https://www.skills.sh/` | Catálogo para descobrir skills por tema |
-| `https://github.com/anthropics/skills` | Exemplos oficiais e padrões de estrutura de skills |
+| `https://github.com/openai/skills` | Exemplos oficiais e padrões de estrutura de skills |
 | `https://github.com/ComposioHQ/awesome-codex-skills` | Lista curada de exemplos para Codex |
 
 Fala pronta do tutor:
@@ -294,7 +294,7 @@ Crie a segunda skill com o mesmo passo a passo do Ato 5. A estrutura é idêntic
 
 **Compartilhar com um colega:** copie a pasta da skill para a mesma localização na máquina do colega. O colega instala igual. Nenhum repositório, nenhuma plataforma extra: é um arquivo em pasta.
 
-Para a skill pessoal (`%USERPROFILE%\.agents\skills\branding-[empresa]`), basta entregar a pasta diretamente ao colega para que ele coloque no mesmo caminho. Para a skill de projeto (`.agents\skills\branding-[empresa]`), ela já estará disponível para qualquer pessoa que trabalhar na mesma pasta.
+Para a skill pessoal (`%USERPROFILE%\.agents\skills\branding-[empresa]`), basta entregar a pasta diretamente ao colega para que ele coloque no mesmo caminho. Para a skill de projeto (`.agents/skills/branding-[empresa]`), ela já estará disponível para qualquer pessoa que trabalhar na mesma pasta.
 
 
 ---
@@ -308,10 +308,10 @@ O aluno quer criar uma skill que "melhora qualquer documento". Fala: "Uma skill 
 O aluno escreveu "aplique a identidade da empresa" sem mais detalhes. O agente vai improvisar e o resultado vai variar. Fala: "Pensa que você está escrevendo para alguém que nunca viu sua empresa. Dita o passo a passo como se fosse para um novo contratado no primeiro dia: onde buscar as informações, em qual ordem aplicar, como entregar. Detalhe é o que transforma instrução vaga em comportamento previsível."
 
 **Esqueceu de testar com material diferente.**
-O aluno testou só com o mesmo material do Ato 3 e achou que funcionou. Fala: "Agora testa com um material completamente diferente, sem nada sobre cores ou tom. Se a skill trouzer a identidade correta sem você mencionar, funcionou de verdade. Se não trouxer, tem algo na instrução que precisa ser mais explícito."
+O aluno testou só com o mesmo material do Ato 3 e achou que funcionou. Fala: "Agora testa com um material completamente diferente, sem nada sobre cores ou tom. Se a skill trouxer a identidade correta sem você mencionar, funcionou de verdade. Se não trouxer, tem algo na instrução que precisa ser mais explícito."
 
 **Identidade incompleta no branding.md.**
-O aluno não sabe as cores exatas e quer esperar. Fala: "Sem logo, tudo bem: nome em texto com a fonte certa já tem presença. Sem os hexadecimais exatos, tudo bem: 'azul do cabeçalho do site' já orienta. O que não pode faltar é o tom de voz, porque é o que torna o texto reconhecível. Com cores, tom e nome da empresa, o artefato já tem cara. Perfeitamos depois."
+O aluno não sabe as cores exatas e quer esperar. Fala: "Sem logo, tudo bem: nome em texto com a fonte certa já tem presença. Sem os hexadecimais exatos, tudo bem: 'azul do cabeçalho do site' já orienta. O que não pode faltar é o tom de voz, porque é o que torna o texto reconhecível. Com cores, tom e nome da empresa, o artefato já tem cara. Refinamos depois."
 
 **Querer automatizar tudo de uma vez.**
 O aluno quer criar cinco skills no mesmo encontro. Fala: "Uma skill bem feita e testada vale mais do que cinco rascunhos que não funcionam. Termina esta, usa ela pelo menos três vezes em situações diferentes, e quando estiver confortável, começa a próxima. A segunda skill vai sair em metade do tempo porque você já sabe o caminho."

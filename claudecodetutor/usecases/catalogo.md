@@ -782,32 +782,7 @@
 
 ---
 
-## Inventário visual dos showcases
-
-> Esta seção é para uso interno na produção de materiais de apresentação e slides do curso. Documenta o material visual REAL disponível nas páginas oficiais do fabricante (coletado em junho de 2026). Os nomes de produto dos showcases são os nomes originais das páginas.
-
-**Hub dos showcases** (slug `showcase/sites`): galeria com **6 screenshots**, um por app de exemplo, cada um funcionando como card clicável para a página de detalhe. Sem vídeos nem demos embutidas no hub. Os 6 apps: Onboarding Hub, Enablement Hub, Pulse Dashboard, Sparkboard, Launch Cal, Event Planning Hub.
-
-| Página (slug) | Nome do app | O que o app faz | Material visual da página |
-|---------------|-------------|-----------------|---------------------------|
-| `showcase/onboarding-hub` | Onboarding Hub | Dashboard de integração de novos contratados: progresso da primeira semana, checklist, reuniões sugeridas, biblioteca de recursos, upload de documentos | 1 screenshot principal (layout "bento box" do dashboard) + demo interativa "Try it live" + prompt completo de criação exibido na página |
-| `showcase/enablement-hub` | Enablement Hub | Biblioteca de aprendizado corporativo: agrega treinamentos de várias fontes, busca e filtros por função/equipe/nível, seção "meu aprendizado" com favoritos | 1 screenshot da interface + demo "Try it live" + prompt completo |
-| `showcase/pulse-dashboard` | Pulse Dashboard | Painel executivo de KPIs: cards com valor atual/delta/tendência, janelas de 4 a 52 semanas, tabela de saúde de métricas, rastreio de linhagem dos dados | 1 screenshot (KPI cards + gráficos de tendência + tabela) + demo "Try it live" + prompt completo |
-| `showcase/idea-intake` | Sparkboard | Caixa de ideias interna: submissão por formulário, votação (um voto por pessoa), comentários, filtros por status, placar de contribuidores | 1 screenshot (painel de cards de ideias com filtros) + demo "Try it live" + prompt completo |
-| `showcase/launch-cal` | Launch Cal | Calendário de lançamentos: visão mensal com filtros (equipe, status, risco), sinais de risco e checklists detalhados por item | 1 screenshot (calendário mensal, arquivo `sites-launch-cal.jpg`) + demo "Try it live" + prompt completo |
-| `showcase/event-planning-hub` | Event Planning Hub | Hub de operações de eventos: formulário de solicitação, aprovações por dono do evento, dashboards de saúde, checklists de conformidade, templates | 1 screenshot (sidebar escura + área de cards clara) + link externo "Try it live" + prompt completo |
-
-**Páginas de documentação relacionadas:**
-
-| Página (slug) | Material visual |
-|---------------|-----------------|
-| `codex/sites` (doc da funcionalidade de sites internos) | 2 pares de screenshots em modo claro e escuro: (1) compositor do app com o plugin de sites e serviços conectados mencionados em um prompt; (2) lista de projetos de sites na barra lateral. Sem vídeo. Inclui 3 exemplos de prompt: dashboard operacional, implantação de projeto existente, app com armazenamento |
-| `codex/appshots` (doc de captura de janela) | Página puramente textual, SEM material visual. Descreve 4 cenários: compartilhar documentação técnica, e-mail/agenda, editor de design, e telas de erro "mais fáceis de mostrar que descrever" |
-
-**Observações para a produção de slides:**
-1. Todos os 6 showcases têm demo interativa "Try it live": a melhor matéria-prima visual é gravar a tela navegando nas demos ao vivo (nenhuma página tem vídeo pronto).
-2. Os prompts completos de criação exibidos em cada página de showcase são excelentes para slides "o pedido vs. o resultado": mostrar o prompt e o screenshot lado a lado.
-3. Os screenshots dos 6 apps no hub têm estética consistente (interfaces modernas, layout bento) e funcionam bem como grade "olha o que dá para construir".
+## Notas por plataforma
 
 
 Notas específicas da plataforma para o tutor:

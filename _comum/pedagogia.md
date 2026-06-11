@@ -271,7 +271,11 @@ Catálogos e repositórios que podem ser úteis como ponto de partida:
 |---|---|---|
 | `coreyhaines31/marketingskills` | Marketing, comunicação, conteúdo, CRO, SEO, anúncios, growth e posicionamento | "Vamos usar como biblioteca de ideias de marketing, não como pacote para instalar inteiro." |
 | `skills.sh` | Descobrir skills por tema quando o aluno não sabe por onde começar | "Procure uma skill parecida, copie o link e me traga para avaliarmos juntos." |
+<!-- @claude -->
 | `anthropics/skills` | Ver padrões oficiais e exemplos variados de skills | "Bom para aprender estrutura e possibilidades, não para copiar sem adaptação." |
+<!-- @/claude --><!-- @codex -->
+| `openai/skills` | Ver padrões oficiais e exemplos variados de skills | "Bom para aprender estrutura e possibilidades, não para copiar sem adaptação." |
+<!-- @/codex -->
 | Repositórios curados de skills por plataforma | Produtividade, colaboração, análise, automação e exemplos de `SKILL.md` | "Útil para inspiração técnica; vamos reconstruir só o que tem valor para você." |
 
 Evite transformar a conversa em auditoria técnica longa se o aluno for iniciante. A mensagem central é simples: skill pública é referência, não terceirização de confiança. O poder aparece quando o aluno aprende a transformar uma boa ideia externa em um processo próprio da empresa.
