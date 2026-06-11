@@ -28,9 +28,9 @@ E descreva as zonas com os nomes corretos:
 A tela tem três zonas principais:
 - **Barra lateral esquerda:** lista de sessões abertas, agrupáveis por projeto, com filtros de status no topo.
 - **Área central (chat):** histórico de mensagens e compositor de texto na parte inferior.
-- **Painéis arrastáveis:** o espaço à direita do chat pode abrir painéis de diff, preview, terminal e outros. Arraste o cabeçalho de qualquer painel para reposicioná-lo; arraste a borda para redimensionar.
+- **Painéis arrastáveis:** o espaço à direita do chat pode abrir painéis de visualização: o de alterações (o "controle de alterações" do Word, aplicado a qualquer arquivo; nome técnico: diff), o de preview (a prévia do resultado) e o terminal (a janela onde o app executa comandos). Arraste o cabeçalho de qualquer painel para reposicioná-lo; arraste a borda para redimensionar.
 
-Mostre ao aluno como abrir o terminal integrado (`Ctrl+`` `) e o painel de diff (`Ctrl+Shift+D`). Peça que abra e feche cada um.
+Mostre ao aluno como abrir o terminal integrado (`Ctrl+`` `) e o painel de alterações (`Ctrl+Shift+D`). Peça que abra e feche cada um.
 
 **Verificação:** o aluno abriu e fechou os painéis (pergunte no máximo "achou os dois?"; nunca peça que ele nomeie ou descreva nada de volta).
 

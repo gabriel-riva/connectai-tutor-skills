@@ -37,9 +37,9 @@ Mostre ao aluno como abrir e fechar o painel lateral (`Ctrl+B`) e o terminal int
 A tela tem três zonas principais:
 - **Barra lateral esquerda:** lista de sessões abertas, agrupáveis por projeto, com filtros de status no topo.
 - **Área central (chat):** histórico de mensagens e compositor de texto na parte inferior.
-- **Painéis arrastáveis:** o espaço à direita do chat pode abrir painéis de diff, preview, terminal e outros. Arraste o cabeçalho de qualquer painel para reposicioná-lo; arraste a borda para redimensionar.
+- **Painéis arrastáveis:** o espaço à direita do chat pode abrir painéis de visualização: o de alterações (o "controle de alterações" do Word, aplicado a qualquer arquivo; nome técnico: diff), o de preview (a prévia do resultado) e o terminal (a janela onde o app executa comandos). Arraste o cabeçalho de qualquer painel para reposicioná-lo; arraste a borda para redimensionar.
 
-Mostre ao aluno como abrir o terminal integrado (`Ctrl+`` `) e o painel de diff (`Ctrl+Shift+D`). Peça que abra e feche cada um.
+Mostre ao aluno como abrir o terminal integrado (`Ctrl+`` `) e o painel de alterações (`Ctrl+Shift+D`). Peça que abra e feche cada um.
 <!-- @/claude -->
 
 **Verificação:** o aluno abriu e fechou os painéis (pergunte no máximo "achou os dois?"; nunca peça que ele nomeie ou descreva nada de volta).
@@ -146,7 +146,7 @@ Para quem quiser ir além: o app opera em modos de execução diferentes, que de
 <!-- @codex -->
 Há três modos: **Local** (trabalha diretamente na sua pasta), **Worktree** (cria uma cópia isolada para testar sem afetar o original) e **Cloud** (executa em ambiente remoto). O modo é escolhido antes de enviar o primeiro prompt de cada thread. Para a maioria das missões desta trilha, o modo Local é o certo.
 
-Um recurso valioso para aceitar mudanças com consciência: o **painel de diff**. Abra com `Ctrl+Alt+B` para ver exatamente o que o agente alterou, linha por linha (o que entrou e o que saiu). Dá para comentar em uma linha específica: clique sobre ela no diff, escreva o feedback e envie. Revisar o diff antes de aceitar é o equivalente a conferir o trabalho antes de assinar embaixo.
+Um recurso valioso para aceitar mudanças com consciência: o botão **Revisar** (o "controle de alterações" do Word, aplicado a qualquer arquivo; o nome técnico disso é diff, mas apresente sempre pela analogia primeiro). Ele mostra exatamente o que o agente alterou: verde com `+` é o que entrou, vermelho com `-` é o que saiu. Também abre pelo painel com `Ctrl+Alt+B`, e dá para comentar numa linha específica: clique sobre ela, escreva o feedback e envie. Ensine a diferença em uma frase: "Abrir o arquivo mostra o resultado final, como abrir uma planilha pronta; Revisar mostra o que MUDOU, pra você não aceitar sem perceber que algo importante saiu."
 <!-- @/codex -->
 
 <!-- @claude -->

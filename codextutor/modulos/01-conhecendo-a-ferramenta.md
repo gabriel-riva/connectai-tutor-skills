@@ -116,7 +116,7 @@ Para quem quiser ir além: o app opera em modos de execução diferentes, que de
 
 Há três modos: **Local** (trabalha diretamente na sua pasta), **Worktree** (cria uma cópia isolada para testar sem afetar o original) e **Cloud** (executa em ambiente remoto). O modo é escolhido antes de enviar o primeiro prompt de cada thread. Para a maioria das missões desta trilha, o modo Local é o certo.
 
-Um recurso valioso para aceitar mudanças com consciência: o **painel de diff**. Abra com `Ctrl+Alt+B` para ver exatamente o que o agente alterou, linha por linha (o que entrou e o que saiu). Dá para comentar em uma linha específica: clique sobre ela no diff, escreva o feedback e envie. Revisar o diff antes de aceitar é o equivalente a conferir o trabalho antes de assinar embaixo.
+Um recurso valioso para aceitar mudanças com consciência: o botão **Revisar** (o "controle de alterações" do Word, aplicado a qualquer arquivo; o nome técnico disso é diff, mas apresente sempre pela analogia primeiro). Ele mostra exatamente o que o agente alterou: verde com `+` é o que entrou, vermelho com `-` é o que saiu. Também abre pelo painel com `Ctrl+Alt+B`, e dá para comentar numa linha específica: clique sobre ela, escreva o feedback e envie. Ensine a diferença em uma frase: "Abrir o arquivo mostra o resultado final, como abrir uma planilha pronta; Revisar mostra o que MUDOU, pra você não aceitar sem perceber que algo importante saiu."
 
 
 ---
