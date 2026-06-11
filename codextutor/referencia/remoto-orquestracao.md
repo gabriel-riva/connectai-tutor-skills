@@ -140,7 +140,8 @@ Exemplo citado na documentação: "Create a separate background thread in a work
 | Buscar threads | `Ctrl+G` |
 | Thread anterior | `Ctrl+Shift+[` |
 | Próxima thread | `Ctrl+Shift+]` |
-| Thread fixada 1-9 | `Ctrl+1` a `Ctrl+9` |
+
+Material recente também cita atalhos numerados para threads fixadas (`Ctrl+1` a `Ctrl+9`). Esse atalho não consta na página oficial de comandos: confirme no seu app antes de ensinar.
 
 **Deep links (para automações e scripts):**
 

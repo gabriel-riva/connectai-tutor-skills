@@ -63,7 +63,7 @@ Threads não são apenas chats: são espaços de trabalho com contexto acumulado
 | `/compact` | Resumir contexto anterior para liberar espaço |
 | `/agent` | Alternar entre threads de agentes paralelos |
 
-Threads fixadas com atalhos `Ctrl+1` a `Ctrl+9` ficam sempre a um toque de distância, transformando-se em espaços de trabalho persistentes.
+Threads fixadas ficam sempre a um toque de distância (material recente cita os atalhos `Ctrl+1` a `Ctrl+9`; confirme no seu app), transformando-se em espaços de trabalho persistentes.
 
 ---
 

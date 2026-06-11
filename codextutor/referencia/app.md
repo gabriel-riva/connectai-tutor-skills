@@ -26,17 +26,25 @@ Uma thread (conversa) é a unidade básica de trabalho. Cada thread tem um modo 
 
 **Buscar threads:** `Ctrl+G`.
 
-**Fixar (pin):** threads importantes podem ser fixadas na barra lateral para acesso rápido. Threads fixadas recebem atalhos numéricos: `Ctrl+1` a `Ctrl+9` navegam diretamente para as primeiras nove threads fixadas.
+**Fixar (pin):** threads importantes podem ser fixadas na barra lateral para acesso rápido. Há atalhos numerados para threads fixadas (`Ctrl+1` a `Ctrl+9`, citado em material recente; confirme no seu app em caso de dúvida).
 
 **Renomear:** clique no nome da thread ou peça ao Codex para renomeá-la diretamente no chat.
 
 **Arquivar:** threads concluídas podem ser arquivadas para manter a barra lateral limpa. Threads arquivadas ficam acessíveis em **Settings > Archived Threads**. Para restaurar, use **Unarchive**.
 
-**Chats:** threads que não precisam de pasta de projeto ou Git ficam na seção **Chats**, armazenadas por padrão em `~/.codex/threads`.
+---
+
+## 3. Chats (threads sem projeto)
+
+Chats são threads que não exigem pasta de projeto nem repositório Git. Servem para pesquisa, triagem, planejamento e fluxos centrados em plugins (como Gmail ou Slack), quando o trabalho não envolve os arquivos de um projeto específico.
+
+Ficam na seção **Chats** da barra lateral e são armazenados no diretório gerenciado pelo Codex (padrão: `~/.codex/threads`).
+
+A diferença em relação a uma thread de projeto: sem pasta associada, o Codex não tem acesso aos arquivos de uma pasta de trabalho. Para tarefas sobre código ou documentos de um projeto, use uma thread de projeto comum.
 
 ---
 
-## 3. Modos de execução (Local, Worktree, Cloud)
+## 4. Modos de execução (Local, Worktree, Cloud)
 
 Cada thread opera em um de três modos, escolhido antes de enviar o primeiro prompt:
 
@@ -50,7 +58,7 @@ Cada thread opera em um de três modos, escolhido antes de enviar o primeiro pro
 
 ---
 
-## 4. Aprovações e sandbox
+## 5. Aprovações e sandbox
 
 O Codex pode ser configurado para pedir confirmação antes de executar ações. As opções de aprovação controlam quando ele pausa:
 
@@ -61,7 +69,7 @@ O **sandbox** restringe acesso a diretórios e rede. Por padrão, o trabalho fic
 
 ---
 
-## 5. Terminal integrado
+## 6. Terminal integrado
 
 Cada thread inclui um terminal próprio. Abra ou feche com `Ctrl+J`.
 
@@ -71,7 +79,7 @@ Usos comuns: verificar status do servidor, rodar testes, executar Git, inspecion
 
 ---
 
-## 6. Painel lateral e artefatos
+## 7. Painel lateral e artefatos
 
 O painel lateral (barra à direita da conversa) exibe o trabalho produzido: código, documentos, planilhas, apresentações e PDFs. Para abrir ou fechar: `Ctrl+B`.
 
@@ -84,11 +92,11 @@ O Codex pode gerar e exibir nesse painel:
 
 Para **anotar** um artefato aberto (indicar o que mudar), use o modo de anotação do navegador integrado (detalhado na seção do browser).
 
-O painel de **diff** mostra alterações de código com comentários inline. Para abrir: `Ctrl+Option+B`. Para comentar em uma linha específica: clique sobre ela no diff, escreva o feedback e envie.
+O painel de **diff** mostra alterações de código com comentários inline. Para abrir: `Ctrl+Alt+B`. Para comentar em uma linha específica: clique sobre ela no diff, escreva o feedback e envie.
 
 ---
 
-## 7. Voz (ditado)
+## 8. Voz (ditado)
 
 Mantenha pressionado `Ctrl+M` para ativar o ditado. O Codex transcreve o áudio em texto no compositor. Você pode editar o texto antes de enviar ou enviá-lo diretamente.
 
@@ -100,7 +108,7 @@ O ditado é especialmente útil para:
 
 ---
 
-## 8. Steering e queuing (dirigir e enfileirar)
+## 9. Steering e queuing (dirigir e enfileirar)
 
 Enquanto o Codex trabalha em uma tarefa, você pode:
 
@@ -111,13 +119,13 @@ Steering muda o que acontece agora. Queuing agenda o que vem a seguir.
 
 ---
 
-## 9. Geração de imagens ($imagegen)
+## 10. Geração de imagens ($imagegen)
 
 Dentro de uma thread, você pode pedir ao Codex para gerar ou editar imagens em linguagem natural, ou invocar explicitamente com `$imagegen`. O modelo usado é o `gpt-image-2`. O uso conta no limite geral de tokens do Codex.
 
 ---
 
-## 10. Memórias
+## 11. Memórias
 
 Quando disponível (verificar em **Settings > Personalization > Memories**), o Codex carrega contexto de sessões anteriores para a thread atual. Útil para preferências estáveis, convenções de projeto e padrões recorrentes.
 
@@ -125,7 +133,7 @@ As memórias complementam o arquivo `AGENTS.md` (instrução escrita e explícit
 
 ---
 
-## 11. Configurações principais
+## 12. Configurações principais
 
 Acesse em `Ctrl+,` ou pelo menu do aplicativo.
 
@@ -144,7 +152,7 @@ Acesse em `Ctrl+,` ou pelo menu do aplicativo.
 
 ---
 
-## 12. Appshots (macOS apenas)
+## 13. Appshots (macOS apenas)
 
 Appshots capturam a janela frontal de qualquer app Mac (imagem + texto disponível) e enviam esse contexto para uma thread do Codex. Ativados com um atalho de teclado configurável. Útil para compartilhar erros, painéis de configuração ou visualizações difíceis de descrever em texto.
 
@@ -152,13 +160,13 @@ Appshots capturam a janela frontal de qualquer app Mac (imagem + texto disponív
 
 ---
 
-## 13. Atualização do app
+## 14. Atualização do app
 
 O Codex atualiza automaticamente quando há nova versão. Para verificar a versão instalada: abra o menu do app. Se um recurso funciona no CLI mas não no app, verifique se ambos estão na mesma versão (o CLI pode ter recebido o recurso primeiro).
 
 ---
 
-## 14. Troubleshooting básico no Windows
+## 15. Troubleshooting básico no Windows
 
 **Thread aparece travada:**
 1. Verifique se o Codex aguarda aprovação (pode estar minimizado).
@@ -182,7 +190,7 @@ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned
 
 ---
 
-## 15. Atalhos de referência rápida
+## 16. Atalhos de referência rápida
 
 | Ação | Atalho |
 |---|---|
@@ -192,10 +200,10 @@ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned
 | Nova thread | `Ctrl+N` ou `Ctrl+Shift+O` |
 | Buscar threads | `Ctrl+G` |
 | Thread anterior/próxima | `Ctrl+Shift+[` / `Ctrl+Shift+]` |
-| Thread fixada 1-9 | `Ctrl+1` a `Ctrl+9` |
+| Thread fixada 1-9 | `Ctrl+1` a `Ctrl+9` (citado em material recente; confirme no app) |
 | Ditado por voz | `Ctrl+M` (manter pressionado) |
 | Abrir/fechar terminal | `Ctrl+J` |
 | Abrir/fechar painel lateral | `Ctrl+B` |
-| Abrir/fechar painel de diff | `Ctrl+Option+B` |
+| Abrir/fechar painel de diff | `Ctrl+Alt+B` |
 | Limpar terminal | `Ctrl+L` |
 | Browser integrado | `Ctrl+Shift+B` |
