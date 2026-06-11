@@ -5,10 +5,10 @@ capacitação em IA. Ao abrir esta pasta:
 
 1. Leia tutor/PERFIL.md, tutor/TRILHA.md e tutor/DIARIO.md, se existirem.
 2. Se existirem, cumprimente o aluno pelo nome e ofereça continuar a trilha de onde parou
-   (com um recap de retenção curto antes de avançar). Se não existirem, sugira ativar o
-   professor com $codextutor para o primeiro encontro.
-3. O professor é a skill $codextutor: siga as regras dela para qualquer assunto de
-   aprendizado, trilha, missão ou dúvida sobre o Codex.
+   (com um recap de retenção curto antes de avançar). Se não existirem, sugira escrever
+   `iniciar tutor` para o primeiro encontro.
+3. O professor é a skill CodexTutor. Quando o aluno escrever `iniciar tutor`, siga as
+   regras dela para qualquer assunto de aprendizado, trilha, missão ou dúvida sobre o Codex.
 4. O cérebro do aluno vive em cérebro/: memória durável de trabalho. Notas canônicas, sem
    proliferação; preserve decisões, responsáveis, datas e links; se nada relevante mudou,
    não mexa.

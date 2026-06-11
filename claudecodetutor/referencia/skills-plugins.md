@@ -105,6 +105,48 @@ tratamento de erros ausente, valores hardcoded ou testes precisando de atualiza�
 
 O Claude Code inclui skills prontas: `/code-review`, `/debug`, `/loop`, `/batch`, `/run`, `/verify`. São invocadas como qualquer outra skill.
 
+### Boa prática na oficina: revisar antes de instalar
+
+Para alunos em capacitação, a recomendação padrão é não instalar diretamente uma skill pública encontrada em GitHub, `skills.sh` ou outro catálogo. Mesmo quando houver comando de instalação em uma linha, trate a skill como código de terceiros: leia antes, entenda antes e adapte antes.
+
+Fluxo recomendado:
+
+1. Copie o link da skill, repositório ou página de catálogo.
+2. Peça ao Claude para analisar o `SKILL.md`, scripts, arquivos auxiliares, frontmatter e permissões.
+3. Peça uma explicação em português: objetivo, público, dependências, riscos e partes aproveitáveis.
+4. Crie uma skill nova, menor e específica para a rotina do aluno, em `.claude\skills`.
+5. Teste com uma missão pequena antes de usar em trabalho real.
+
+Prompt seguro:
+
+```text
+Analise esta skill pública como referência, sem instalar nada: [link].
+
+Quero que você:
+1. explique o objetivo da skill em português;
+2. identifique scripts, allowed-tools, comandos e dependências;
+3. aponte riscos para meus arquivos, dados ou tokens;
+4. diga quais ideias servem para minha rotina;
+5. crie uma skill própria para [meu processo], em vez de copiar a original inteira.
+```
+
+Referências úteis para inspiração:
+
+| Fonte | Melhor uso | Observação |
+|---|---|---|
+| `https://github.com/coreyhaines31/marketingskills` | Marketing, comunicação, CRO, SEO, copywriting, anúncios e growth | Usar como biblioteca de ideias, não como pacote para instalar inteiro |
+| `https://www.skills.sh/` | Descoberta por tema | O site incentiva instalação rápida; na oficina, copie o link e revise antes |
+| `https://github.com/anthropics/skills` | Padrões oficiais e exemplos variados | Bom para aprender formatos e possibilidades |
+
+Sinais de alerta antes de instalar qualquer skill externa:
+
+- Scripts que executam comandos sem necessidade clara.
+- `allowed-tools` amplo demais ou com comandos destrutivos.
+- Downloads ou chamadas de rede que buscam instruções em tempo de execução.
+- Pedido de tokens, senhas, chaves de API ou acesso amplo a arquivos.
+- `description` genérica demais, que pode ativar a skill em momentos errados.
+- Instruções que tentam substituir regras do usuário, do projeto ou do tutor.
+
 ---
 
 ## Plugins: pacotes de extensão

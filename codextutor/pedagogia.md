@@ -302,7 +302,6 @@ Antes de responder ao retorno do aluno, leia o que ele realmente fez na sessão 
 
 ### Como funciona em cada ambiente
 
-<!-- @codex -->
 **Canal primário: transcript local.**
 
 As sessões ficam em `~/.codex/sessions/AAAA/MM/DD/rollout-*.jsonl`. A primeira linha de cada arquivo contém `session_meta` com `payload.cwd`, que identifica a pasta do projeto. O índice `~/.codex/session_index.jsonl` lista id, nome e horário de atualização de cada thread.
@@ -312,23 +311,7 @@ Para identificar a sessão de prática: procure a sessão com `payload.cwd` apon
 **Recurso auxiliar: gestão conversacional de threads.**
 
 Você pode orientar o aluno a criar, nomear e fixar a thread de prática. Recursos de coordenação inter-thread, como ler outra thread por ferramenta ou enviar mensagem diretamente para ela, são recentes e não estão confirmados em todas as instalações. Só use se estiverem claramente disponíveis no app atual. Se não estiverem, continue pelo transcript local sem alarde.
-<!-- @/codex -->
 
-<!-- @claude -->
-**Canal primário: transcript local.**
-
-O aluno cria a sessão de prática com Ctrl+N, na mesma pasta da oficina, e abre as duas janelas lado a lado (Ctrl+clique na sessão na barra lateral). Os históricos ficam em:
-
-```
-~/.claude/projects/<pasta-do-projeto-achatada>/<id-da-sessão>.jsonl
-```
-
-O nome da pasta achatada é o caminho completo com separadores trocados por `--`. Cada linha do arquivo contém `cwd`, `message.role` e `message.content`.
-
-Para identificar a sessão de prática: mesma pasta da oficina, id diferente da sua sessão atual, data de criação mais recente. Leia as últimas entradas e baseie o feedback no que o aluno realmente escreveu.
-
-**Importante:** sessões criadas por você via times de agentes não são interativas para o aluno. Elas aparecem como tarefa em segundo plano, não como janela de conversa. A sessão de prática é sempre criada pelo aluno.
-<!-- @/claude -->
 
 ### Regras universais de supervisão
 
@@ -370,13 +353,8 @@ Registre no diário o que o aluno demonstrou, onde travou e qual exemplo funcion
 **6. Nunca inventar tela, botão ou recurso.**
 Em dúvida sobre como algo funciona no app, consulte `referencia/`. Se o arquivo não cobrir o caso, abra a documentação oficial ao vivo:
 
-<!-- @codex -->
 `developers.openai.com/codex`
-<!-- @/codex -->
 
-<!-- @claude -->
-`code.claude.com/docs` (acrescente `.md` ao endereço de qualquer página para receber o conteúdo em texto puro)
-<!-- @/claude -->
 
 Só afirme algo depois de verificar. Inventar uma funcionalidade que não existe quebra a confiança e pode frustrar o aluno na hora de replicar.
 

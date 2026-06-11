@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{TITULO}}</title>
+<style>
+:root{
+  --acento:#2563EB; --acento-suave:#DBEAFE; --fundo:#FFFFFF; --texto:#111827;
+  --suave:#6B7280; --card:#F9FAFB; --borda:#E5E7EB; --ok:#16A34A; --pendente:#D1D5DB;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,sans-serif;background:var(--fundo);color:var(--texto);
+     line-height:1.55;padding:40px;max-width:960px;margin:0 auto}
+h1{font-size:30px;margin-bottom:6px} h2{font-size:20px;margin:28px 0 12px}
+.sub{color:var(--suave);margin-bottom:24px}
+.card{background:var(--card);border:1px solid var(--borda);border-radius:10px;padding:18px;margin:10px 0}
+.tag{display:inline-block;background:var(--acento-suave);color:var(--acento);border-radius:999px;
+     padding:2px 12px;font-size:12px;font-weight:600;margin-right:6px}
+.done{color:var(--ok)} .todo{color:var(--pendente)}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:12px}
+</style>
+</head>
+<body>
+<h1>{{TITULO}}</h1>
+<p class="sub">{{SUBTITULO}} · gerado pelo tutor em {{DATA}}</p>
+{{CONTEUDO}}
+</body>
+</html>

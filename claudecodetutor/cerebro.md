@@ -103,7 +103,7 @@ Exemplos de arquivos:
 
 O cérebro guarda o que precisa sobreviver entre sessões. A pergunta-filtro é: "Se essa sessão fosse encerrada agora e eu voltasse daqui a duas semanas, o que eu precisaria saber para continuar de onde parei?" Só isso entra.
 
-Não é um diário. Não é arquivo morto. É um conjunto enxuto de verdades que o tutor pode carregar no <!-- @codex -->o AGENTS.md da oficina<!-- @/codex --><!-- @claude -->o CLAUDE.md da oficina<!-- @/claude --> para ter o contexto do aluno disponível imediatamente.
+Não é um diário. Não é arquivo morto. É um conjunto enxuto de verdades que o tutor pode carregar no o CLAUDE.md da oficina para ter o contexto do aluno disponível imediatamente.
 
 ### 2. Notas canônicas, não proliferação
 

@@ -1,0 +1,6 @@
+interface:
+  display_name: "CodexTutor"
+  short_description: "Professor de Codex para oficina prática"
+  default_prompt: "Iniciar tutor para começar ou retomar minha Oficina de Aprendizado."
+policy:
+  allow_implicit_invocation: true

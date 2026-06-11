@@ -16,35 +16,51 @@ Gestores e profissionais que querem aprender a usar ferramentas de IA no trabalh
 
 ## Instalação no Codex
 
-Abra o Codex numa **pasta nova e vazia** que será sua Oficina de Aprendizado. Cole o prompt abaixo:
+O aluno só precisa dizer ao Codex:
 
+```text
+Instale a skill CodexTutor deste repositório: https://github.com/gabriel-riva/connectai-tutor-skills
 ```
-Instale meu professor de Codex. Faça exatamente isto, nesta ordem:
-1. Confirme que estamos numa pasta nova ou vazia (ela será minha "Oficina de Aprendizado"). Se a pasta atual tiver outros arquivos, PARE e me avise antes de qualquer coisa.
-2. Baixe https://github.com/{CONTA}/{REPO}/archive/refs/heads/main.zip e extraia numa pasta temporária fora daqui. Use o download do zip mesmo que o git esteja instalado (a oficina NÃO deve virar repositório git).
-3. Copie a pasta codextutor/ do zip para .agents/skills/codextutor/ aqui na oficina.
-4. Crie aqui as pastas: tutor/, missões/, cérebro/pessoal/, cérebro/profissional/, cérebro/empresa/, cérebro/departamento/, cérebro/equipe/.
-5. Se houver um bloco <turma>...</turma> no final desta mensagem, salve o conteúdo dele (sem as tags) em tutor/turma.md.
-6. Copie .agents/skills/codextutor/oficina/AGENTS-oficina.md para a raiz da oficina com o nome AGENTS.md.
-7. Apague a pasta temporária do zip, mostre a estrutura final da oficina em forma de árvore e termine exatamente com: "Pronto! Digite $codextutor para conhecer seu professor."
+
+Depois da instalação, reinicie o Codex. Em seguida, abra ou crie uma pasta para a Oficina de Aprendizado e escreva `iniciar tutor`. A própria skill prepara `tutor/`, `missões/`, `cérebro/`, `tutor/AMBIENTE.md` e `AGENTS.md` na primeira ativação.
+
+Se o Codex pedir o caminho da skill dentro do repositório, use `codextutor/` ou o link direto:
+
+```text
+https://github.com/gabriel-riva/connectai-tutor-skills/tree/main/codextutor
+```
+
+### Instrução para o agente instalador
+
+Quando um agente receber o link raiz deste repositório e o pedido para instalar o CodexTutor, ele deve instalar a subpasta `codextutor/` como skill do Codex. A raiz do repositório não é a skill. A pasta `_comum/` é fonte de desenvolvimento e não precisa ser instalada.
+
+Use o instalador nativo de skills do Codex, equivalente a:
+
+```text
+install-skill-from-github --repo gabriel-riva/connectai-tutor-skills --path codextutor
 ```
 
 ---
 
 ## Instalação no Claude Code
 
-Abra o Claude Code numa **pasta nova e vazia** que será sua Oficina de Aprendizado. Cole o prompt abaixo:
+O aluno só precisa dizer ao Claude Code:
 
+```text
+Instale a skill ClaudeCodeTutor deste repositório: https://github.com/gabriel-riva/connectai-tutor-skills
 ```
-Instale meu professor de Claude Code. Faça exatamente isto, nesta ordem:
-1. Confirme que estamos numa pasta nova ou vazia (ela será minha "Oficina de Aprendizado"). Se a pasta atual tiver outros arquivos, PARE e me avise antes de qualquer coisa.
-2. Baixe https://github.com/{CONTA}/{REPO}/archive/refs/heads/main.zip e extraia numa pasta temporária fora daqui. Use o download do zip mesmo que o git esteja instalado (a oficina NÃO deve virar repositório git).
-3. Copie a pasta claudecodetutor/ do zip para .claude/skills/claudecodetutor/ aqui na oficina.
-4. Crie aqui as pastas: tutor/, missões/, cérebro/pessoal/, cérebro/profissional/, cérebro/empresa/, cérebro/departamento/, cérebro/equipe/.
-5. Se houver um bloco <turma>...</turma> no final desta mensagem, salve o conteúdo dele (sem as tags) em tutor/turma.md.
-6. Copie .claude/skills/claudecodetutor/oficina/CLAUDE-oficina.md para a raiz da oficina com o nome CLAUDE.md E copie .claude/skills/claudecodetutor/oficina/settings.local.json para .claude/settings.local.json aqui na oficina.
-7. Apague a pasta temporária do zip, mostre a estrutura final da oficina em forma de árvore e termine exatamente com: "Pronto! Digite /claudecodetutor para conhecer seu professor."
+
+Depois da instalação, abra ou crie uma pasta para a Oficina de Aprendizado e escreva `iniciar tutor`. A própria skill prepara `tutor/`, `missões/`, `cérebro/`, `tutor/AMBIENTE.md`, `CLAUDE.md` e `.claude/settings.local.json` na primeira ativação.
+
+Se o Claude Code pedir o caminho da skill dentro do repositório, use `claudecodetutor/` ou o link direto:
+
+```text
+https://github.com/gabriel-riva/connectai-tutor-skills/tree/main/claudecodetutor
 ```
+
+### Instrução para o agente instalador
+
+Quando um agente receber o link raiz deste repositório e o pedido para instalar o ClaudeCodeTutor, ele deve instalar a subpasta `claudecodetutor/` como skill do Claude Code. A raiz do repositório não é a skill. A pasta `_comum/` é fonte de desenvolvimento e não precisa ser instalada.
 
 ---
 
@@ -71,7 +87,7 @@ tutor-repo/
 
 ## Como atualizar
 
-Para atualizar o tutor com uma versão mais recente do repositório, reinstale usando o mesmo prompt de instalação na pasta da oficina existente. O instalador substitui apenas os arquivos da skill; os arquivos do aluno (tutor/, missões/, cérebro/) não são afetados.
+Para atualizar o tutor com uma versão mais recente do repositório, peça ao agente para atualizar a skill instalada a partir do mesmo link, substituindo apenas a pasta da skill. Os arquivos do aluno ficam na Oficina de Aprendizado (`tutor/`, `missões/`, `cérebro/`) e não devem ser apagados.
 
 ---
 

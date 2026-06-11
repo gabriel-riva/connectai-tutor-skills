@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Vitrine de Casos de Uso</title>
+<style>
+:root{
+  --acento:#2563EB; --acento-suave:#DBEAFE; --fundo:#FFFFFF; --texto:#111827;
+  --suave:#6B7280; --card:#F9FAFB; --borda:#E5E7EB; --ok:#16A34A; --pendente:#D1D5DB;
+  --tag-inic-bg:#DCFCE7; --tag-inic-cor:#15803D;
+  --tag-inter-bg:#DBEAFE; --tag-inter-cor:#2563EB;
+  --tag-avanc-bg:#F3F4F6; --tag-avanc-cor:#6B7280;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,sans-serif;background:var(--fundo);color:var(--texto);
+     line-height:1.55;padding:40px;max-width:960px;margin:0 auto}
+h1{font-size:30px;margin-bottom:6px}
+h2{font-size:20px;margin:28px 0 12px}
+.sub{color:var(--suave);margin-bottom:24px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:16px;margin-top:8px}
+
+/* Tags de dificuldade */
+.tag{display:inline-block;border-radius:999px;padding:2px 12px;
+     font-size:12px;font-weight:700;margin-bottom:10px}
+.tag.iniciante{background:var(--tag-inic-bg);color:var(--tag-inic-cor)}
+.tag.intermediario{background:var(--tag-inter-bg);color:var(--tag-inter-cor)}
+.tag.avancado{background:var(--tag-avanc-bg);color:var(--tag-avanc-cor)}
+
+/* Cards de caso de uso */
+.caso-card{background:var(--card);border:1px solid var(--borda);border-radius:10px;
+           padding:20px;display:flex;flex-direction:column;gap:10px}
+.caso-nome{font-weight:700;font-size:17px}
+.caso-descricao{font-size:14px;color:var(--texto);line-height:1.6}
+.caso-realidade{font-size:14px;background:#EFF6FF;border-left:4px solid var(--acento);
+                border-radius:0 7px 7px 0;padding:10px 14px;color:#1e3a5f}
+.caso-realidade strong{color:var(--acento)}
+</style>
+</head>
+<body>
+
+<h1>Vitrine de Casos de Uso</h1>
+<p class="sub">{{NOME_DO_ALUNO}} · {{FUNCAO}} · {{DATA}}</p>
+
+<h2>Casos selecionados para o seu perfil</h2>
+<div class="grid">
+
+{{CASOS_DE_USO}}
+
+</div>
+
+<!--
+=== EXEMPLO DE USO (apague ou mantenha comentado ao entregar) ===
+
+<div class="caso-card">
+  <div class="caso-nome">Resumo automático de reuniões</div>
+  <span class="tag iniciante">iniciante</span>
+  <div class="caso-descricao">
+    Transforma anotações brutas ou transcrições em um resumo estruturado com
+    decisões tomadas, próximos passos e responsáveis.
+  </div>
+  <div class="caso-realidade">
+    <strong>Na sua realidade:</strong> {{COMO_FICARIA_NA_EMPRESA_DO_ALUNO}}
+  </div>
+</div>
+
+=== FIM DO EXEMPLO ===
+-->
+
+</body>
+</html>
