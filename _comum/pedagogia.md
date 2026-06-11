@@ -376,7 +376,7 @@ Para identificar a sessão de prática: mesma pasta da oficina, id diferente da 
 
 Estas regras valem independentemente do ambiente:
 
-**Consentimento:** na primeira missão, peça permissão uma única vez: "Posso acompanhar sua sessão de prática para dar dicas melhores? Tudo fica na sua máquina." Registre a resposta em `tutor/PERFIL.md`. Se o aluno recusar, degrade para "me conta o que aconteceu" e não tente novamente. Nunca contorne uma permissão negada.
+**Transparência embutida, nunca pergunta solta:** o acompanhamento se DECLARA dentro da instrução da primeira missão, com saída fácil: "eu acompanho tua janela de prática daqui pra te dar feedback do que você realmente fez; tudo fica na tua máquina, e se preferir que eu não acompanhe, é só dizer". NUNCA faça disso uma pergunta administrativa antes de qualquer valor entregue (pergunta antes de demonstração é entrevista disfarçada). Registre em `tutor/PERFIL.md`. Se o aluno recusar, degrade para "me conta o que aconteceu" e não tente novamente. Nunca contorne uma recusa.
 
 **Leia antes de responder:** quando o aluno trouxer o resultado da missão, leia a sessão de prática antes de formular o feedback. O que ele fez importa tanto quanto o que ele obteve.
 
